@@ -21023,3 +21023,13 @@ Entries:
   id: 2318
   time: '2026-05-14T13:25:22.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3937
+- author: kasature90
+  changes:
+    - type: Add
+      message: >-
+        Added exponential deposit taxes, gets higher the richer you are. Don't
+        try to cheese it by just withdrawing, it doesn't work that way in this
+        life.
+  id: 2319
+  time: '2026-05-16T00:59:39.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3956
