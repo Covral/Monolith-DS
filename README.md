@@ -1,69 +1,98 @@
 <p align="center"> <img alt="Frontier Station 14" width="880" height="300" src="https://raw.githubusercontent.com/Monolith-Station/Monolith/89d435f0d2c54c4b0e6c3b1bf4493c9c908a6ac7/Resources/Textures/_Mono/Logo/logo.png?raw=true" /></p>
 
-Monolith is a fork of [Frontier Station 14](https://github.com/new-frontiers-14/frontier-station-14) that runs on the [Robust Toolbox](https://github.com/space-wizards/RobustToolbox) engine written in C#.
+![Alt](https://repobeats.axiom.co/api/embed/cfba1806606b5f66bb0bd62eebcd8941d9008e31.svg "Repobeats analytics image")
 
-This is the primary repo for Monolith.
+Monolith-DS — это форк [Monolith](https://github.com/Monolith-Station/Monolith)/[Space Station 14](https://github.com/space-wizards/space-station-14), работающий на движке [Robust Toolbox](https://github.com/space-wizards/RobustToolbox), написанном на C#.
 
-If you want to host or create content for Monolith, this is the repo you need. It contains both RobustToolbox and the content pack for development of new content packs.
+Это основной репозиторий Monolith-DS, являющийся форком Monolith.
 
-## Links
+## Ссылки
 
-[Discord](https://discord.gg/mxY4h2JuUw) | [Steam](https://store.steampowered.com/app/1255460/Space_Station_14/)
+[Discord](https://discord.gg/PFMc8FENR) | [Steam](https://store.steampowered.com/app/1255460/Space_Station_14/) | [Вики](https://wiki.deadspace14.net/Фронтир:Заглавная_страница)
 
-## Contributing
 
-We are happy to accept contributions from anybody. Get in Discord if you want to help. Don't be afraid to ask for help either!
+## Документация
 
-We are not currently accepting translations of the game on our main repository. If you would like to translate the game into another language consider creating a fork or contributing to a fork.
+На официальном сайте с [документацией](https://docs.spacestation14.io/) имеется вся необходимая информация о контенте SS14, движке, дизайне игры и многом другом. Также имеется много информации для начинающих разработчиков.
 
-## Building
+## Участие в разработке
 
-Refer to [the Space Wizards' guide](https://docs.spacestation14.com/en/general-development/setup/setting-up-a-development-environment.html) on setting up a development environment for general information, but keep in mind that Einstein Engines is not the same and many things may not apply.
-We provide some scripts shown below to make the job easier.
+Если вы желаете внести свой вклад в сборку проекта, мы рады принять участию любого человека. Заходите в Discord, если хотите помочь. Не бойтесь просить о помощи!
+Перед созданием PR, убедитесь, что ваши изменения и соответствуют [рекомендациям по PR](https://docs.spacestation14.com/en/general-development/codebase-info/pull-request-guidelines.html).
 
-### Build dependencies
+## Сборка
+Обратитесь к руководству Space Wizards по настройке среды разработки для получения общей информации, но имейте в виду, что ввиду использования Einstein Engines некоторые инструкции могут быть неприменимы.
+Ниже предоставляется несколько инструкций для запуска сборки.
+
+### Зависимости
 
 > - Git
 > - .NET SDK 10.0
 
+### Запуск сборки
 
-### Windows
+> 1. Склонируйте этот репозиторий локально.
+> 2. Запустите `RUN_THIS.py` для инициализации подмодулей и скачивания движка.
+> 3. Откройте консоль в директории проекта.
+> 4. Соберите проект с помощью `dotnet build`.
 
-> 1. Clone this repository
-> 2. Run `Scripts/bat/updateEngine.bat` in a terminal or in file explorer to download the engine
-> 3. Run `Scripts/bat/buildAllDebug.bat` after making any changes to the source
-> 4. Run `Scripts/bat/runQuickAll.bat` to launch the client and the server
-> 5. Connect to localhost in the client and play
-
-### Linux
-
-> 1. Clone this repository
-> 2. Run `Scripts/sh/updateEngine.sh` in a terminal to download the engine
-> 3. Run `Scripts/sh/buildAllDebug.sh` after making any changes to the source
-> 4. Run `Scripts/sh/runQuickAll.sh` to launch the client and the server
-> 5. Connect to localhost in the client and play
-
-### MacOS
-
-> 1. Clone this repository
-> 2. Run `Scripts/sh/updateEngine.sh` in a terminal to download the engine
-> 3. Run `Scripts/sh/buildAllDebug.sh` after making any changes to the source
-> 4. Run `Scripts/sh/runQuickAll.sh` to launch the client and the server
-> 5. Connect to localhost in the client and play
-
-## License
-
-See the REUSE headers for detailed licensing information for each file for the specific licenses contributions are made under. The work as a whole is licensed under GNU Affero General Public License version 3.0.
-
-By default, original code contributed to the Monolith codebase after 04d8ce483f638320d1b85a7aaacdf01442757363 is under Mozilla Public License version 2.0 with Exhibit B removed. See `LICENSE-MPL.txt`.
-
-Content contributed to this repository after commit 2fca06eaba205ae6fe3aceb8ae2a0594f0effee0 is licensed under the GNU Affero General Public License version 3.0, unless otherwise stated. See `LICENSE-AGPLv3.txt`.
-
-Content contributed to this repository before commit 2fca06eaba205ae6fe3aceb8ae2a0594f0effee0 is licensed under the MIT license, unless otherwise stated. See `LICENSE-MIT.txt`.
+[Более подробная инструкция по запуску проекта.](https://docs.spacestation14.com/en/general-development/setup.html)
 
 
-[2fca06eaba205ae6fe3aceb8ae2a0594f0effee0](https://github.com/new-frontiers-14/frontier-station-14/commit/2fca06eaba205ae6fe3aceb8ae2a0594f0effee0) was pushed on July 1, 2024 at 16:04 UTC
+## Лицензия
 
-Most assets are licensed under [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) unless stated otherwise. Assets have their license and the copyright in the metadata file. [Example](https://github.com/space-wizards/space-station-14/blob/master/Resources/Textures/Objects/Tools/crowbar.rsi/meta.json).
+Смотрите заголовки REUSE для получения подробной информации о лицензировании каждого файла и конкретных лицензиях, под которыми предоставляется вклад. В основном весь код в этой кодовой базе распространяется под лицензией под GNU Affero General Public License 3.0.
 
-Note that some assets are licensed under the non-commercial [CC-BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) or similar non-commercial licenses and will need to be removed if you wish to use this project commercially.
+По умолчанию, оригинальный код, внесенный в кодовую базу Monolith после коммита 04d8ce483f638320d1b85a7aaacdf01442757363, распространяется под Mozilla Public License версии 2.0 с удаленным Приложением B. Подробнее в `LICENSE-MPL.txt`.
+
+Контент, внесенный в этот репозиторий после коммита [2fca06eaba205ae6fe3aceb8ae2a0594f0effee0](https://github.com/new-frontiers-14/frontier-station-14/commit/2fca06eaba205ae6fe3aceb8ae2a0594f0effee0), лицензирован под GNU Affero General Public License версии 3.0, если не указано иное. Подробнее в `LICENSE-AGPLv3.txt`.
+
+Контент, внесенный в этот репозиторий до коммита [2fca06eaba205ae6fe3aceb8ae2a0594f0effee0](https://github.com/new-frontiers-14/frontier-station-14/commit/2fca06eaba205ae6fe3aceb8ae2a0594f0effee0), лицензирован под лицензией MIT, если не указано иное. Подробнее в `LICENSE-MPL.txt`.
+
+[2fca06eaba205ae6fe3aceb8ae2a0594f0effee0](https://github.com/new-frontiers-14/frontier-station-14/commit/2fca06eaba205ae6fe3aceb8ae2a0594f0effee0) был создан 1 июля 2024 года в 16:04 UTC.
+
+Большинство ассетов лицензированы под CC-BY-SA 3.0, если не указано иное. Ассеты имеют свою лицензию и информацию об авторских правах в файле метаданных. [Пример](https://github.com/space-wizards/space-station-14/blob/master/Resources/Textures/Objects/Tools/crowbar.rsi/meta.json).
+
+Обратите внимание, что некоторые ассеты лицензированы под некоммерческой лицензией CC-BY-NC-SA 3.0 или аналогичными некоммерческими лицензиями, и их необходимо будет удалить, если вы хотите использовать этот проект в коммерческих целях.
+
+
+## Атрибуция
+
+При заимствовании контента из других форков мы организуем его в соответствующие подкаталоги для удобства отслеживания авторства и минимизации конфликтов при слиянии.
+
+Контент в этих подкаталогах происходит из соответствующих форков и может содержать изменения. Эти изменения обозначены комментариями вокруг/на измененных строках.
+
+| Подкаталог | Название форка | Репозиторий форка | Лицензия |
+|--------------|-----------|-----------------|---------|
+| `_CD` | Cosmatic Drift | https://github.com/cosmatic-drift-14/cosmatic-drift | MIT |
+| `_CorvaxNext` | Corvax Next | https://github.com/space-syndicate/space-station-14-next | AGPL 3.0 |
+| `_Cresent` | Hullrot | https://github.com/Sector-Crescent/Hullrot| AGPL 3.0 |
+| `_DeadSpace` | Мёртвый Космос | https://github.com/dead-space-server/space-station-14-fobos | Custom |
+| `_DV` | Delta-V | https://github.com/DeltaV-Station/Delta-v | AGPL 3.0 |
+| `_EE` **или** `_EinsteinEngines` | Einstein Engines | https://github.com/Simple-Station/Einstein-Engines | AGPL 3.0 |
+| `_EstacaoPirata` | Estacao Pirata | https://github.com/Day-OS/estacao-pirata-14 | AGPL 3.0 |
+| `_FarHorizons` | Far Horizons  | https://github.com/Far-Horizons-SS14/Far-Horizons-SS14 | MIT |
+| `_Funkystation` | Funky Station | https://github.com/funky-station/funky-station | AGPL 3.0 |
+| `_Goobstation` **или** `_Shitmed` | Goob Station | https://github.com/Goob-Station/Goob-Station | AGPL 3.0 |
+| `_Harmony` | Harmony | https://github.com/ss14-harmony/ss14-harmony | AGPL 3.0 |
+| `_Impstation` | Impstation | https://github.com/impstation/imp-station-14 | AGPL 3.0 |
+| `_Lua` | LuaCorp | https://github.com/Lua-Frontier/sector-frontier-14 | AGPL 3.0 |
+| `_LuaM` | Monolith DS | https://github.com/Lua-Frontier/Monolith-DS | AGPL 3.0 |
+| `_Moffstation` | Moff Station | https://github.com/moff-station/moff-station-14 | MIT |
+| `_Mono` | Monolith | https://github.com/Monolith-Station/Monolith | AGPL 3.0 |
+| `_NF` | Frontier Station | https://github.com/new-frontiers-14/frontier-station-14 | AGPL 3.0 |
+| `_Obelisk` | Obelisk | https://github.com/Obelisk-Sector/Obelisk | AGPL 3.0 |
+| `_RMC14` | RMC-14 | https://github.com/RMC-14/RMC-14 | MIT |
+| `_SCP` | Fire Station | https://github.com/space-sunrise/project-fire | MIT |
+| `_SimpleStation` | Simple Station | https://github.com/Gary412/SimpleStation14 | MIT |
+| `_StarLight` | Star Light | https://github.com/ss14Starlight/space-station-14 | MIT |
+| `Nyanotrasen` | Nyanotrasen | https://github.com/Nyanotrasen/Nyanotrasen | MIT |
+
+
+Дополнительные репозитории, из которых были перенесены функции без создания подкаталогов, перечислены ниже.
+
+| Название форка | Репозиторий форка | Лицензия |
+|-----------|-----------------|---------|
+| Space Station 14 | https://github.com/space-wizards/space-station-14 | MIT |
+
+Обратите внимание, что подкатлоги могут отсутствовать, ввиду ошибок контрибьютеров оригинального репозитория [Monolith](https://github.com/Monolith-Station/Monolith). 
