@@ -1,4 +1,4 @@
-<p align="center"> <img alt="Frontier Station 14" width="880" height="300" src="https://raw.githubusercontent.com/Monolith-Station/Monolith/89d435f0d2c54c4b0e6c3b1bf4493c9c908a6ac7/Resources/Textures/_Mono/Logo/logo.png?raw=true" /></p>
+<p align="center"> <img alt="Monolith DS" height="300" src="https://github.com/Lua-Frontier/Monolith-DS/blob/master/Resources/Textures/_LuaM/Logo/logogit.png?raw=true" /></p>
 
 ![Alt](https://repobeats.axiom.co/api/embed/cfba1806606b5f66bb0bd62eebcd8941d9008e31.svg "Repobeats analytics image")
 
