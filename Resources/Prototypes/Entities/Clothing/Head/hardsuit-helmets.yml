@@ -409,7 +409,7 @@
 #ANTAG HARDSUITS
 #Blood-red Hardsuit
 - type: entity
-  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
+  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, ShowSecurityIcons ] # LuaM add ShowSecurityIcons
   id: ClothingHeadHelmetHardsuitSyndie
   name: blood-red hardsuit helmet
   description: A heavily armored helmet designed for work in special operations. Property of Gorlex Marauders.
@@ -431,6 +431,13 @@
         Slash: 0.9
         Piercing: 0.9
         Heat: 0.9
+  # LuaM start
+  - type: ThermalVision # LuaM add
+    flashDurationMultiplier: 2
+    pulseTime: 3
+    isEquipment: true
+    toggleAction: PulseThermalVision
+  # LuaM end
 
 #Blood-red Medic Hardsuit
 - type: entity
@@ -456,10 +463,17 @@
         Slash: 0.9
         Piercing: 0.9
         Heat: 0.9
+  # LuaM start
+  - type: ThermalVision # LuaM add
+    flashDurationMultiplier: 2
+    pulseTime: 3
+    isEquipment: true
+    toggleAction: PulseThermalVision
+  # LuaM end
 
 #Syndicate Elite Hardsuit
 - type: entity
-  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
+  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, ShowMedicalIcons, ShowSecurityIcons ] # LuaM add ShowMedicalIcons ShowSecurityIcons
   id: ClothingHeadHelmetHardsuitSyndieElite
   name: syndicate elite helmet
   description: An elite version of the blood-red hardsuit's helmet, with improved armor and fireproofing. Property of Gorlex Marauders.
@@ -486,6 +500,11 @@
         Slash: 0.9
         Piercing: 0.9
         Heat: 0.9
+  # LuaM start
+  - type: NightVision # LuaM add
+    flashDurationMultiplier: 2.25
+    isEquipment: true
+  # LuaM end
 
 #Syndicate Commander Hardsuit
 - type: entity
