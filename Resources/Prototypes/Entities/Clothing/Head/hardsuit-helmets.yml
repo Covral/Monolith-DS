@@ -431,13 +431,11 @@
         Slash: 0.9
         Piercing: 0.9
         Heat: 0.9
-  # LuaM start
   - type: ThermalVision # LuaM add
     flashDurationMultiplier: 2
     pulseTime: 3
     isEquipment: true
     toggleAction: PulseThermalVision
-  # LuaM end
 
 #Blood-red Medic Hardsuit
 - type: entity
@@ -463,13 +461,11 @@
         Slash: 0.9
         Piercing: 0.9
         Heat: 0.9
-  # LuaM start
   - type: ThermalVision # LuaM add
     flashDurationMultiplier: 2
     pulseTime: 3
     isEquipment: true
     toggleAction: PulseThermalVision
-  # LuaM end
 
 #Syndicate Elite Hardsuit
 - type: entity
@@ -500,11 +496,9 @@
         Slash: 0.9
         Piercing: 0.9
         Heat: 0.9
-  # LuaM start
   - type: NightVision # LuaM add
     flashDurationMultiplier: 2.25
     isEquipment: true
-  # LuaM end
 
 #Syndicate Commander Hardsuit
 - type: entity

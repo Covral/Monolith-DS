@@ -207,7 +207,7 @@
     minAngle: 2
     maxAngle: 12
   # LuaM end
-    fireRate: 7.5 # Mono
+    fireRate: 7.5
     selectedMode: Burst
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/atreides.ogg
