@@ -134,22 +134,22 @@
   - type: FireProtection # Mono
     reduction: 0.5
   - type: ExplosionResistance
-    damageCoefficient: 0.2 # LuaM 0.5 > 0.2
+    damageCoefficient: 0.2 # LuaM: 0.5 > 0.2
   - type: Armor # Mono - Armor Value Changes
     modifiers:
       coefficients:
-        Blunt: 0.35 # LuaM 0.4 > 0.35
-        Slash: 0.35 # LuaM 0.4 > 0.35
-        Piercing: 0.35 # LuaM 0.4 > 0.35
+        Blunt: 0.35 # LuaM: 0.4 > 0.35
+        Slash: 0.35 # LuaM: 0.4 > 0.35
+        Piercing: 0.35 # LuaM: 0.4 > 0.35
         Heat: 0.45
         Radiation: 0.4
         Caustic: 0.5
         Poison: 0.8 # Mono
   - type: ClothingSpeedModifier # Mono - Armor Value Changes
-    walkModifier: 1.1 # LuaM 0.9 > 1.1
-    sprintModifier: 1.1 # LuaM 1 > 1.1
+    walkModifier: 1.1 # LuaM: 0.9 > 1.1
+    sprintModifier: 1.1 # LuaM: 1 > 1.1
   - type: StaminaDamageResistance # Mono - Stamres
-    coefficient: 0.55 # LuaM 0.35 > 0.55
+    coefficient: 0.55 # LuaM: 0.35 > 0.55
   - type: PirateBountyItem # Mono
     id: ClothingOuterHardsuitTacsuitHighValue
 
@@ -247,18 +247,18 @@
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
   - type: ExplosionResistance
-    damageCoefficient: 0.15 # LuaM 0.4 > 0.15
+    damageCoefficient: 0.15 # LuaM: 0.4 > 0.15
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.3 # LuaM 0.55 > 0.3
-        Slash: 0.3 # LuaM 0.55 > 0.3
-        Piercing: 0.3 #LuaM 0.55 > 0.3
+        Blunt: 0.3 # LuaM: 0.55 > 0.3
+        Slash: 0.3 # LuaM: 0.55 > 0.3
+        Piercing: 0.3 #LuaM: 0.55 > 0.3
         Shock: 0.95
-        Heat: 0.3 # LuaM 0.7 > 0.3
+        Heat: 0.3 # LuaM: 0.7 > 0.3
         Poison: 0.825
-        Radiation: 0.3 # LuaM 0.5 > 0.3
+        Radiation: 0.3 # LuaM: 0.5 > 0.3
         Caustic: 0.6
   - type: ClothingSpeedModifier
-    walkModifier: 1.1 # LuaM 0.9 > 1.1
-    sprintModifier: 1.1 # LuaM 0.875 > 1.1
+    walkModifier: 1.1 # LuaM: 0.9 > 1.1
+    sprintModifier: 1.1 # LuaM: 0.875 > 1.1
