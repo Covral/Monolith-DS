@@ -19,7 +19,7 @@
   - Pursuit
   - Patrol
   engine:
-  - Plasma
+  - Plasma # LuaM: AME > Plasma
 
 - type: gameMap
   id: Flyssa
