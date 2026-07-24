@@ -5,7 +5,7 @@
   parent: BaseVesselAntag
   name: VEF Buran
   description: USSP capital-sized frigate with tremendous broadside firepower and thick armor. Glory to commissariat.
-  price: 4100000 # LuaM: 320000 > 4100000
+  price: 410000 # LuaM: 320000 > 410000
   category: Large
   group: Ussp
   access: Mercenary
