@@ -68,6 +68,7 @@
     - MedkitCombatFilled # LuaM add
     - MedkitCombatFilled # LuaM add
     - MedkitCombatFilled # LuaM add
+    - SolCommonTranslatorImplanter # LuaM add
     belt:
     - Magazine762x39mmPlasteelAP # LuaM: Magazine762x39mmFMJ > Magazine762x39mmPlasteelAP
     - Magazine762x39mmPlasteelAP # LuaM: Magazine762x39mmFMJ > Magazine762x39mmPlasteelAP
@@ -148,6 +149,7 @@
     - MedkitCombatFilled # LuaM add
     - MedkitCombatFilled # LuaM add
     - MedkitCombatFilled # LuaM add
+    - SolCommonTranslatorImplanter # LuaM add
     belt:
     - Magazine762x39mmPlasteelAP # LuaM: Magazine762x39mmFMJ > Magazine762x39mmPlasteelAP
     - Magazine762x39mmPlasteelAP # LuaM: Magazine762x39mmFMJ > Magazine762x39mmPlasteelAP
@@ -229,6 +231,7 @@
     - MedkitCombatFilled # LuaM add
     - MedkitCombatFilled # LuaM add
     - MedkitCombatFilled # LuaM add
+    - SolCommonTranslatorImplanter # LuaM add
     belt:
     - Magazine8x65mmSKR
     - Magazine8x65mmSKR
@@ -309,6 +312,7 @@
     - MedkitCombatFilled # LuaM add
     - MedkitCombatFilled # LuaM add
     - MedkitCombatFilled # LuaM add
+    - SolCommonTranslatorImplanter # LuaM add
     belt:
     - Magazine45_ACPSubMachineGunPlasteelAP # LuaM: Magazine46x30mmSubMachineGunTopMountedFMJ > Magazine45_ACPSubMachineGunPlasteelAP
     - Magazine45_ACPSubMachineGunPlasteelAP # LuaM: Magazine46x30mmSubMachineGunTopMountedFMJ > Magazine45_ACPSubMachineGunPlasteelAP
@@ -389,6 +393,7 @@
     - MedkitCombatFilled # LuaM add
     - MedkitCombatFilled # LuaM add
     - MedkitCombatFilled # LuaM add
+    - SolCommonTranslatorImplanter # LuaM add
     belt:
     - MagazineSmartLMG
     - MagazineSmartLMG
@@ -469,6 +474,7 @@
     - MedkitCombatFilled # LuaM add
     - MedkitCombatFilled # LuaM add
     - MedkitCombatFilled # LuaM add
+    - SolCommonTranslatorImplanter # LuaM add
     belt:
   #  - AmmoBox68x52mmCaseless # Commented by LuaM
   #  - AmmoBox68x52mmCaseless # Commented by LuaM
