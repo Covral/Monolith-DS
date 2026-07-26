@@ -6,8 +6,8 @@
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitAsakimUnremoveable
     shoes: ClothingShoesBootsMagAsakim
-    pocket1: CrowbarPocket
-    pocket2: DoubleEmergencyOxygenTankFilled
+    pocket1: MedicalPouchFilledERT # LuaM: CrowbarPocket > MedicalPouchFilledERT
+    pocket2: Hypospray # LuaM: DoubleEmergencyOxygenTankFilled > Hypospray
     belt: ClothingBeltWebbingsBigBlack
     suitStorage: OxygenTankFilled
     ears: ClothingHeadsetChameleon # LuaM add
@@ -16,17 +16,15 @@
   - WeaponPhaseBlade
   storage:
     back:
-    - DoubleEmergencyOxygenTankFilled
+  #  - DoubleEmergencyOxygenTankFilled # Commented by LuaM
   #  - MedkitCombatFilled # Commented by LuaM
   #  - MedkitCombatFilled # Commented by LuaM
   #  - SyringeCaseAltFilled # Commented by LuaM
-    - JetpackADMFilled # LuaM: JetpackMiniFilled > JetpackADMFilled
+    - JetpackADMFilled # LuaM: JetpackMiniFilled > JetpackADMFilled # Commented by LuaM
     - FreedomImplanter
     - CognizineChemistryBottle
-    - Syringe
+  #  - Syringe # Commented by LuaM
     - RadioHandheldNF
-    - Hypospray # LuaM add
-    - MedicalPouchFilledERT # LuaM add
     - MonoMRE # LuaM add
     - MonoMRE # LuaM add
     - MonoMRE # LuaM add
@@ -36,6 +34,10 @@
     - PinpointerUniversal # LuaM add
     - EnergyShield # LuaM add
     - ScramImplanter # LuaM add
+    - MedkitCombatFilled # LuaM add
+    - MedkitCombatFilled # LuaM add
+    - MedkitCombatFilled # LuaM add
+    - MedkitCombatFilled # LuaM add
     belt:
    # - CombatMedipen # Commented by LuaM
    # - CombatMedipen # Commented by LuaM
@@ -45,3 +47,5 @@
     - PowerDrill
     - JawsOfLife
     - WelderExperimental
+    - RCDRecharging # LuaM add
+    - NaniteApplicatorSyndicate # LuaM add
