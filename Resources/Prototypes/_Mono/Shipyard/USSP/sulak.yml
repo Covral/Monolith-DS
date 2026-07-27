@@ -24,7 +24,7 @@
   minPlayers: 0
   stations:
     Sulak:
-      stationProto: StandardFrontierVessel
+      stationProto: StandardFrontierExpeditionVessel # LuaM: StandardFrontierVessel > StandardFrontierExpeditionVessel
       components:
         - type: StationNameSetup
           mapNameTemplate: 'Sulak MIL{1}'

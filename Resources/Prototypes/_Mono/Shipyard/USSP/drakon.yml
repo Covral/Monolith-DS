@@ -24,7 +24,7 @@
   minPlayers: 0
   stations:
     Drakon:
-      stationProto: StandardFrontierVessel
+      stationProto: StandardFrontierExpeditionVessel # LuaM: StandardFrontierVessel > StandardFrontierExpeditionVessel
       components:
         - type: StationNameSetup
           mapNameTemplate: 'Drakon MIL{1}'
