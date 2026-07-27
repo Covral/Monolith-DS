@@ -25,19 +25,21 @@
     - CognizineChemistryBottle
   #  - Syringe # Commented by LuaM
     - RadioHandheldNF
-    - MonoMRE # LuaM add
-    - MonoMRE # LuaM add
-    - MonoMRE # LuaM add
-    - MonoMRE # LuaM add
-    - OmnimedTool # LuaM add
-    - ClothingHandsGlovesSurgical # LuaM add
-    - PinpointerUniversal # LuaM add
-    - EnergyShield # LuaM add
-    - ScramImplanter # LuaM add
-    - MedkitCombatFilled # LuaM add
-    - MedkitCombatFilled # LuaM add
-    - MedkitCombatFilled # LuaM add
-    - MedkitCombatFilled # LuaM add
+  # LuaM start
+    - MonoMRE
+    - MonoMRE
+    - MonoMRE
+    - MonoMRE
+    - OmnimedTool
+    - ClothingHandsGlovesSurgical
+    - PinpointerUniversal
+    - EnergyShield
+    - ScramImplanter
+    - MedkitCombatFilled
+    - MedkitCombatFilled
+    - MedkitCombatFilled
+    - MedkitCombatFilled
+  # LuaM end
     belt:
    # - CombatMedipen # Commented by LuaM
    # - CombatMedipen # Commented by LuaM

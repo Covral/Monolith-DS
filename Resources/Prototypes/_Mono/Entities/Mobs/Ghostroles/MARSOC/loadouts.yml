@@ -31,44 +31,46 @@
     - EnergySwordNfsd
   #  - BluespaceLifelineImplanter # Commented by LuaM
     - PinpointerUniversal
-    - Hypospray # LuaM add
-    - MedicalPouchFilledERT # LuaM add
-    - MonoMRE # LuaM add
-    - MonoMRE # LuaM add
-    - MonoMRE # LuaM add
-    - AmmoBox762x39mmPlasteelAP # LuaM add
-    - AmmoBox762x39mmPlasteelAP # LuaM add
-    - AmmoBox762x39mmPlasteelAP # LuaM add
-    - AmmoBox762x39mmPlasteelAP # LuaM add
-    - AmmoBox762x39mmPlasteelAP # LuaM add
-    - AmmoBox762x39mmPlasteelAP # LuaM add
-    - Magazine762x39mmPlasteelAP # LuaM add
-    - Magazine762x39mmPlasteelAP # LuaM add
-    - Magazine762x39mmPlasteelAP # LuaM add
-    - Magazine762x39mmPlasteelAP # LuaM add
-    - Magazine762x39mmPlasteelAP # LuaM add
-    - PowerDrill # LuaM add
-    - JawsOfLife # LuaM add
-    - WelderExperimental # LuaM add
-    - OmnimedTool # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - ClothingHandsGlovesSurgical # LuaM add
-    - ScramImplanter # LuaM add
-    - RCDRecharging # LuaM add
-    - NaniteApplicatorSyndicate # LuaM add
-    - MedkitCombatFilled # LuaM add
-    - MedkitCombatFilled # LuaM add
-    - MedkitCombatFilled # LuaM add
-    - MedkitCombatFilled # LuaM add
-    - SolCommonTranslatorImplanter # LuaM add
+  # LuaM start
+    - Hypospray
+    - MedicalPouchFilledERT
+    - MonoMRE
+    - MonoMRE
+    - MonoMRE
+    - AmmoBox762x39mmPlasteelAP
+    - AmmoBox762x39mmPlasteelAP
+    - AmmoBox762x39mmPlasteelAP
+    - AmmoBox762x39mmPlasteelAP
+    - AmmoBox762x39mmPlasteelAP
+    - AmmoBox762x39mmPlasteelAP
+    - Magazine762x39mmPlasteelAP
+    - Magazine762x39mmPlasteelAP
+    - Magazine762x39mmPlasteelAP
+    - Magazine762x39mmPlasteelAP
+    - Magazine762x39mmPlasteelAP
+    - PowerDrill
+    - JawsOfLife
+    - WelderExperimental
+    - OmnimedTool
+    - FederationMilitaryCredit50
+    - FederationMilitaryCredit50
+    - FederationMilitaryCredit50
+    - FederationMilitaryCredit50
+    - FederationMilitaryCredit50
+    - FederationMilitaryCredit50
+    - FederationMilitaryCredit50
+    - FederationMilitaryCredit50
+    - FederationMilitaryCredit50
+    - ClothingHandsGlovesSurgical
+    - ScramImplanter
+    - RCDRecharging
+    - NaniteApplicatorSyndicate
+    - MedkitCombatFilled
+    - MedkitCombatFilled
+    - MedkitCombatFilled
+    - MedkitCombatFilled
+    - SolCommonTranslatorImplanter
+  # LuaM end
     belt:
     - Magazine762x39mmPlasteelAP # LuaM: Magazine762x39mmFMJ > Magazine762x39mmPlasteelAP
     - Magazine762x39mmPlasteelAP # LuaM: Magazine762x39mmFMJ > Magazine762x39mmPlasteelAP
@@ -112,44 +114,46 @@
     - EnergySwordNfsd
   #  - BluespaceLifelineImplanter # Commented by LuaM
     - PinpointerUniversal
-    - Hypospray # LuaM add
-    - MedicalPouchFilledERT # LuaM add
-    - MonoMRE # LuaM add
-    - MonoMRE # LuaM add
-    - MonoMRE # LuaM add
-    - AmmoBox762x39mmPlasteelAP # LuaM add
-    - AmmoBox762x39mmPlasteelAP # LuaM add
-    - AmmoBox762x39mmPlasteelAP # LuaM add
-    - AmmoBox762x39mmPlasteelAP # LuaM add
-    - AmmoBox762x39mmPlasteelAP # LuaM add
-    - AmmoBox762x39mmPlasteelAP # LuaM add
-    - Magazine762x39mmPlasteelAP # LuaM add
-    - Magazine762x39mmPlasteelAP # LuaM add
-    - Magazine762x39mmPlasteelAP # LuaM add
-    - Magazine762x39mmPlasteelAP # LuaM add
-    - Magazine762x39mmPlasteelAP # LuaM add
-    - PowerDrill # LuaM add
-    - JawsOfLife # LuaM add
-    - WelderExperimental # LuaM add
-    - OmnimedTool # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - ClothingHandsGlovesSurgical # LuaM add
-    - ScramImplanter # LuaM add
-    - RCDRecharging # LuaM add
-    - NaniteApplicatorSyndicate # LuaM add
-    - MedkitCombatFilled # LuaM add
-    - MedkitCombatFilled # LuaM add
-    - MedkitCombatFilled # LuaM add
-    - MedkitCombatFilled # LuaM add
-    - SolCommonTranslatorImplanter # LuaM add
+  # LuaM start
+    - Hypospray
+    - MedicalPouchFilledERT
+    - MonoMRE
+    - MonoMRE
+    - MonoMRE
+    - AmmoBox762x39mmPlasteelAP
+    - AmmoBox762x39mmPlasteelAP
+    - AmmoBox762x39mmPlasteelAP
+    - AmmoBox762x39mmPlasteelAP
+    - AmmoBox762x39mmPlasteelAP
+    - AmmoBox762x39mmPlasteelAP
+    - Magazine762x39mmPlasteelAP
+    - Magazine762x39mmPlasteelAP
+    - Magazine762x39mmPlasteelAP
+    - Magazine762x39mmPlasteelAP
+    - Magazine762x39mmPlasteelAP
+    - PowerDrill
+    - JawsOfLife
+    - WelderExperimental
+    - OmnimedTool
+    - FederationMilitaryCredit50
+    - FederationMilitaryCredit50
+    - FederationMilitaryCredit50
+    - FederationMilitaryCredit50
+    - FederationMilitaryCredit50
+    - FederationMilitaryCredit50
+    - FederationMilitaryCredit50
+    - FederationMilitaryCredit50
+    - FederationMilitaryCredit50
+    - ClothingHandsGlovesSurgical
+    - ScramImplanter
+    - RCDRecharging
+    - NaniteApplicatorSyndicate
+    - MedkitCombatFilled
+    - MedkitCombatFilled
+    - MedkitCombatFilled
+    - MedkitCombatFilled
+    - SolCommonTranslatorImplanter
+  # LuaM end
     belt:
     - Magazine762x39mmPlasteelAP # LuaM: Magazine762x39mmFMJ > Magazine762x39mmPlasteelAP
     - Magazine762x39mmPlasteelAP # LuaM: Magazine762x39mmFMJ > Magazine762x39mmPlasteelAP
@@ -172,7 +176,7 @@
     gloves: ClothingHandsGlovesTacticalCombatBlack
     outerClothing: ClothingOuterHardsuitM86Mk4
     shoes: ClothingShoesBootsMagAsakim # LuaM: ClothingShoesBootsMagAdv > ClothingShoesBootsMagAsakim
-    id: MarsocFTLPDA
+    id: MarsocFTLPDA # LuaM: MarsocPDA > MarsocFTLPDA
     pocket1: DoubleEmergencyOxygenTankFilled # LuaM: CrowbarPocket > DoubleEmergencyOxygenTank
     pocket2: WeaponPulsePistol # LuaM: WeaponEnergyRevolver > WeaponPulsePistol
     belt: ClothingBeltWebbingsNormalTSFMC
@@ -192,46 +196,48 @@
     - JetpackVoidFilled # LuaM: JetpackMiniFilled > JetpackVoidFilled
     - EnergyShieldNfsd
     - EnergySwordNfsd
-  #  - BluespaceLifelineImplanter # Commented by LuaM
+  #  - BluespaceLifelineImplanter # Commented by LuaM # Нахуй растворы.
     - PinpointerUniversal
-    - Hypospray # LuaM add
-    - MedicalPouchFilledERT # LuaM add
-    - MonoMRE # LuaM add
-    - MonoMRE # LuaM add
-    - MonoMRE # LuaM add
-    - AmmoBox8x65mmSKR # LuaM add
-    - AmmoBox8x65mmSKR # LuaM add
-    - AmmoBox8x65mmSKR # LuaM add
-    - AmmoBox8x65mmSKR # LuaM add
-    - AmmoBox8x65mmSKR # LuaM add
-    - AmmoBox8x65mmSKR # LuaM add
-    - Magazine8x65mmSKR # LuaM add
-    - Magazine8x65mmSKR # LuaM add
-    - Magazine8x65mmSKR # LuaM add
-    - Magazine8x65mmSKR # LuaM add
-    - Magazine8x65mmSKR # LuaM add
-    - PowerDrill # LuaM add
-    - JawsOfLife # LuaM add
-    - WelderExperimental # LuaM add
-    - OmnimedTool # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - ClothingHandsGlovesSurgical # LuaM add
-    - ScramImplanter # LuaM add
-    - RCDRecharging # LuaM add
-    - NaniteApplicatorSyndicate # LuaM add
-    - MedkitCombatFilled # LuaM add
-    - MedkitCombatFilled # LuaM add
-    - MedkitCombatFilled # LuaM add
-    - MedkitCombatFilled # LuaM add
-    - SolCommonTranslatorImplanter # LuaM add
+  # LuaM start
+    - Hypospray
+    - MedicalPouchFilledERT
+    - MonoMRE
+    - MonoMRE
+    - MonoMRE
+    - AmmoBox8x65mmSKR
+    - AmmoBox8x65mmSKR
+    - AmmoBox8x65mmSKR
+    - AmmoBox8x65mmSKR
+    - AmmoBox8x65mmSKR
+    - AmmoBox8x65mmSKR
+    - Magazine8x65mmSKR
+    - Magazine8x65mmSKR
+    - Magazine8x65mmSKR
+    - Magazine8x65mmSKR
+    - Magazine8x65mmSKR
+    - PowerDrill
+    - JawsOfLife
+    - WelderExperimental
+    - OmnimedTool
+    - FederationMilitaryCredit50
+    - FederationMilitaryCredit50
+    - FederationMilitaryCredit50
+    - FederationMilitaryCredit50
+    - FederationMilitaryCredit50
+    - FederationMilitaryCredit50
+    - FederationMilitaryCredit50
+    - FederationMilitaryCredit50
+    - FederationMilitaryCredit50
+    - ClothingHandsGlovesSurgical
+    - ScramImplanter
+    - RCDRecharging
+    - NaniteApplicatorSyndicate
+    - MedkitCombatFilled
+    - MedkitCombatFilled
+    - MedkitCombatFilled
+    - MedkitCombatFilled
+    - SolCommonTranslatorImplanter
+  # LuaM end
     belt:
     - Magazine8x65mmSKR
     - Magazine8x65mmSKR
@@ -254,7 +260,7 @@
     gloves: ClothingHandsGlovesTacticalCombatBlack
     outerClothing: ClothingOuterHardsuitM86Mk4
     shoes: ClothingShoesBootsMagAsakim # LuaM: ClothingShoesBootsMagAdv > ClothingShoesBootsMagAsakim
-    id: MarsocFTLPDA
+    id: MarsocFTLPDA # LuaM: MarsocPDA > MarsocFTLPDA
     pocket1: DoubleEmergencyOxygenTankFilled # LuaM: CrowbarPocket > DoubleEmergencyOxygenTank
     pocket2: WeaponPulsePistol # LuaM: WeaponEnergyRevolver > WeaponPulsePistol
     belt: ClothingBeltWebbingsNormalTSFMC
@@ -275,44 +281,46 @@
     - EnergySwordNfsd
   #  - BluespaceLifelineImplanter # Commented by LuaM
     - PinpointerUniversal
-    - Hypospray # LuaM add
-    - MedicalPouchFilledERT # LuaM add
-    - MonoMRE # LuaM add
-    - MonoMRE # LuaM add
-    - MonoMRE # LuaM add
-    - AmmoBox45_ACPPlasteelAP # LuaM add
-    - AmmoBox45_ACPPlasteelAP # LuaM add
-    - AmmoBox45_ACPPlasteelAP # LuaM add
-    - AmmoBox45_ACPPlasteelAP # LuaM add
-    - AmmoBox45_ACPPlasteelAP # LuaM add
-    - AmmoBox45_ACPPlasteelAP # LuaM add
-    - Magazine45_ACPSubMachineGunPlasteelAP # LuaM add
-    - Magazine45_ACPSubMachineGunPlasteelAP # LuaM add
-    - Magazine45_ACPSubMachineGunPlasteelAP # LuaM add
-    - Magazine45_ACPSubMachineGunPlasteelAP # LuaM add
-    - Magazine45_ACPSubMachineGunPlasteelAP # LuaM add
-    - PowerDrill # LuaM add
-    - JawsOfLife # LuaM add
-    - WelderExperimental # LuaM add
-    - OmnimedTool # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - ClothingHandsGlovesSurgical # LuaM add
-    - ScramImplanter # LuaM add
-    - RCDRecharging # LuaM add
-    - NaniteApplicatorSyndicate # LuaM add
-    - MedkitCombatFilled # LuaM add
-    - MedkitCombatFilled # LuaM add
-    - MedkitCombatFilled # LuaM add
-    - MedkitCombatFilled # LuaM add
-    - SolCommonTranslatorImplanter # LuaM add
+  # LuaM start
+    - Hypospray
+    - MedicalPouchFilledERT
+    - MonoMRE
+    - MonoMRE
+    - MonoMRE
+    - AmmoBox45_ACPPlasteelAP
+    - AmmoBox45_ACPPlasteelAP
+    - AmmoBox45_ACPPlasteelAP
+    - AmmoBox45_ACPPlasteelAP
+    - AmmoBox45_ACPPlasteelAP
+    - AmmoBox45_ACPPlasteelAP
+    - Magazine45_ACPSubMachineGunPlasteelAP
+    - Magazine45_ACPSubMachineGunPlasteelAP
+    - Magazine45_ACPSubMachineGunPlasteelAP
+    - Magazine45_ACPSubMachineGunPlasteelAP
+    - Magazine45_ACPSubMachineGunPlasteelAP
+    - PowerDrill
+    - JawsOfLife
+    - WelderExperimental
+    - OmnimedTool
+    - FederationMilitaryCredit50
+    - FederationMilitaryCredit50
+    - FederationMilitaryCredit50
+    - FederationMilitaryCredit50
+    - FederationMilitaryCredit50
+    - FederationMilitaryCredit50
+    - FederationMilitaryCredit50
+    - FederationMilitaryCredit50
+    - FederationMilitaryCredit50
+    - ClothingHandsGlovesSurgical
+    - ScramImplanter
+    - RCDRecharging
+    - NaniteApplicatorSyndicate
+    - MedkitCombatFilled
+    - MedkitCombatFilled
+    - MedkitCombatFilled
+    - MedkitCombatFilled
+    - SolCommonTranslatorImplanter
+  # LuaM end
     belt:
     - Magazine45_ACPSubMachineGunPlasteelAP # LuaM: Magazine46x30mmSubMachineGunTopMountedFMJ > Magazine45_ACPSubMachineGunPlasteelAP
     - Magazine45_ACPSubMachineGunPlasteelAP # LuaM: Magazine46x30mmSubMachineGunTopMountedFMJ > Magazine45_ACPSubMachineGunPlasteelAP
@@ -335,7 +343,7 @@
     gloves: ClothingHandsGlovesTacticalCombatBlack
     outerClothing: ClothingOuterHardsuitM86Mk4
     shoes: ClothingShoesBootsMagAsakim # LuaM: ClothingShoesBootsMagAdv > ClothingShoesBootsMagAsakim
-    id: MarsocFTLPDA
+    id: MarsocFTLPDA # LuaM: MarsocPDA > MarsocFTLPDA
     pocket1: DoubleEmergencyOxygenTankFilled # LuaM: CrowbarPocket > DoubleEmergencyOxygenTank
     pocket2: WeaponPulsePistol # LuaM: WeaponEnergyRevolver > WeaponPulsePistol
     belt: ClothingBeltWebbingsNormalTSFMC
@@ -356,44 +364,46 @@
     - EnergySwordNfsd
   #  - BluespaceLifelineImplanter # Commented by LuaM
     - PinpointerUniversal
-    - Hypospray # LuaM add
-    - MedicalPouchFilledERT # LuaM add
-    - MonoMRE # LuaM add
-    - MonoMRE # LuaM add
-    - MonoMRE # LuaM add
-    - MagazineSmartLMG # LuaM add
-    - MagazineSmartLMG # LuaM add
-    - MagazineSmartLMG # LuaM add
-    - MagazineSmartLMG # LuaM add
-    - MagazineSmartLMG # LuaM add
-    - MagazineSmartLMG # LuaM add
-    - MagazineSmartLMG # LuaM add
-    - MagazineSmartLMG # LuaM add
-    - MagazineSmartLMG # LuaM add
-    - MagazineSmartLMG # LuaM add
-    - MagazineSmartLMG # LuaM add
-    - PowerDrill # LuaM add
-    - JawsOfLife # LuaM add
-    - WelderExperimental # LuaM add
-    - OmnimedTool # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - ClothingHandsGlovesSurgical # LuaM add
-    - ScramImplanter # LuaM add
-    - RCDRecharging # LuaM add
-    - NaniteApplicatorSyndicate # LuaM add
-    - MedkitCombatFilled # LuaM add
-    - MedkitCombatFilled # LuaM add
-    - MedkitCombatFilled # LuaM add
-    - MedkitCombatFilled # LuaM add
-    - SolCommonTranslatorImplanter # LuaM add
+  # LuaM start
+    - Hypospray
+    - MedicalPouchFilledERT
+    - MonoMRE
+    - MonoMRE
+    - MonoMRE
+    - MagazineSmartLMG
+    - MagazineSmartLMG
+    - MagazineSmartLMG
+    - MagazineSmartLMG
+    - MagazineSmartLMG
+    - MagazineSmartLMG
+    - MagazineSmartLMG
+    - MagazineSmartLMG
+    - MagazineSmartLMG
+    - MagazineSmartLMG
+    - MagazineSmartLMG
+    - PowerDrill
+    - JawsOfLife
+    - WelderExperimental
+    - OmnimedTool
+    - FederationMilitaryCredit50
+    - FederationMilitaryCredit50
+    - FederationMilitaryCredit50
+    - FederationMilitaryCredit50
+    - FederationMilitaryCredit50
+    - FederationMilitaryCredit50
+    - FederationMilitaryCredit50
+    - FederationMilitaryCredit50
+    - FederationMilitaryCredit50
+    - ClothingHandsGlovesSurgical
+    - ScramImplanter
+    - RCDRecharging
+    - NaniteApplicatorSyndicate
+    - MedkitCombatFilled
+    - MedkitCombatFilled
+    - MedkitCombatFilled
+    - MedkitCombatFilled
+    - SolCommonTranslatorImplanter
+  # LuaM end
     belt:
     - MagazineSmartLMG
     - MagazineSmartLMG
@@ -416,7 +426,7 @@
     gloves: ClothingHandsGlovesTacticalCombatBlack
     outerClothing: ClothingOuterHardsuitM86Mk4
     shoes: ClothingShoesBootsMagAsakim # LuaM: ClothingShoesBootsMagAdv > ClothingShoesBootsMagAsakim
-    id: MarsocFTLPDA
+    id: MarsocFTLPDA # LuaM: MarsocPDA > MarsocFTLPDA
     pocket1: DoubleEmergencyOxygenTankFilled # LuaM: CrowbarPocket > DoubleEmergencyOxygenTank
     pocket2: WeaponPulsePistol # LuaM: WeaponEnergyRevolver > WeaponPulsePistol
     belt: ClothingBeltWebbingsNormalTSFMC
@@ -437,44 +447,46 @@
     - EnergySwordNfsd
   #  - BluespaceLifelineImplanter # Commented by LuaM
     - PinpointerUniversal
-    - Hypospray # LuaM add
-    - MedicalPouchFilledERT # LuaM add
-    - MonoMRE # LuaM add
-    - MonoMRE # LuaM add
-    - MonoMRE # LuaM add
-    - AmmoBox762x39mmPlasteelAP # LuaM add
-    - AmmoBox762x39mmPlasteelAP # LuaM add
-    - AmmoBox762x39mmPlasteelAP # LuaM add
-    - AmmoBox762x39mmPlasteelAP # LuaM add
-    - AmmoBox762x39mmPlasteelAP # LuaM add
-    - AmmoBox762x39mmPlasteelAP # LuaM add
-    - AmmoBox762x39mmBigFMJ # LuaM add
-    - AmmoBox762x39mmBigFMJ # LuaM add
-    - AmmoBox762x39mmBigFMJ # LuaM add
-    - AmmoBox762x39mmBigFMJ # LuaM add
-    - AmmoBox762x39mmBigFMJ # LuaM add
-    - PowerDrill # LuaM add
-    - JawsOfLife # LuaM add
-    - WelderExperimental # LuaM add
-    - OmnimedTool # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - FederationMilitaryCredit50 # LuaM add
-    - ClothingHandsGlovesSurgical # LuaM add
-    - ScramImplanter # LuaM add
-    - RCDRecharging # LuaM add
-    - NaniteApplicatorSyndicate # LuaM add
-    - MedkitCombatFilled # LuaM add
-    - MedkitCombatFilled # LuaM add
-    - MedkitCombatFilled # LuaM add
-    - MedkitCombatFilled # LuaM add
-    - SolCommonTranslatorImplanter # LuaM add
+  # LuaM start
+    - Hypospray
+    - MedicalPouchFilledERT
+    - MonoMRE
+    - MonoMRE
+    - MonoMRE
+    - AmmoBox762x39mmPlasteelAP
+    - AmmoBox762x39mmPlasteelAP
+    - AmmoBox762x39mmPlasteelAP
+    - AmmoBox762x39mmPlasteelAP
+    - AmmoBox762x39mmPlasteelAP
+    - AmmoBox762x39mmPlasteelAP
+    - AmmoBox762x39mmBigFMJ
+    - AmmoBox762x39mmBigFMJ
+    - AmmoBox762x39mmBigFMJ
+    - AmmoBox762x39mmBigFMJ
+    - AmmoBox762x39mmBigFMJ
+    - PowerDrill
+    - JawsOfLife
+    - WelderExperimental
+    - OmnimedTool
+    - FederationMilitaryCredit50
+    - FederationMilitaryCredit50
+    - FederationMilitaryCredit50
+    - FederationMilitaryCredit50
+    - FederationMilitaryCredit50
+    - FederationMilitaryCredit50
+    - FederationMilitaryCredit50
+    - FederationMilitaryCredit50
+    - FederationMilitaryCredit50
+    - ClothingHandsGlovesSurgical
+    - ScramImplanter
+    - RCDRecharging
+    - NaniteApplicatorSyndicate
+    - MedkitCombatFilled
+    - MedkitCombatFilled
+    - MedkitCombatFilled
+    - MedkitCombatFilled
+    - SolCommonTranslatorImplanter
+  # LuaM end
     belt:
   #  - AmmoBox68x52mmCaseless # Commented by LuaM
   #  - AmmoBox68x52mmCaseless # Commented by LuaM
