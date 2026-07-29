@@ -172,13 +172,13 @@
     back: ClothingBackpackSatchelHolding # LuaM: ClothingBackpackERTLeader > ClothingBackpackSatchelHolding
     mask: ClothingMaskGasERT
     eyes: ClothingEyesTSFOfficerGlasses # LuaM: ClothingEyesHudMedSec > ClothingEyesTSFOfficerGlasses
-    ears: ClothingHeadsetAltTsfmcMarsocFtl
+    ears: ClothingHeadsetAltTsfmcMarsocFtl # LuaM: ClothingHeadsetAltTsfmcMarsoc > ClothingHeadsetAltTsfmcMarsocFtl
     gloves: ClothingHandsGlovesTacticalCombatBlack
     outerClothing: ClothingOuterHardsuitM86Mk4
     shoes: ClothingShoesBootsMagAsakim # LuaM: ClothingShoesBootsMagAdv > ClothingShoesBootsMagAsakim
     id: MarsocFTLPDA # LuaM: MarsocPDA > MarsocFTLPDA
     pocket1: DoubleEmergencyOxygenTankFilled # LuaM: CrowbarPocket > DoubleEmergencyOxygenTank
-    pocket2: WeaponPulsePistol # LuaM: WeaponEnergyRevolver > WeaponPulsePistol
+    pocket2: WeaponPulsePistol # LuaM: WeaponPistolMk58 > WeaponPulsePistol
     belt: ClothingBeltWebbingsNormalTSFMC
     neck: ClothingNeckIFFCyan
     suitStorage: OxygenTankFilled
@@ -256,13 +256,13 @@
     back: ClothingBackpackSatchelHolding # LuaM: ClothingBackpackERTLeader > ClothingBackpackSatchelHolding
     mask: ClothingMaskGasERT
     eyes: ClothingEyesTSFOfficerGlasses # LuaM: ClothingEyesHudMedSec > ClothingEyesTSFOfficerGlasses
-    ears: ClothingHeadsetAltTsfmcMarsocFtl
+    ears: ClothingHeadsetAltTsfmcMarsocFtl # LuaM: ClothingHeadsetAltTsfmcMarsoc > ClothingHeadsetAltTsfmcMarsocFtl
     gloves: ClothingHandsGlovesTacticalCombatBlack
     outerClothing: ClothingOuterHardsuitM86Mk4
     shoes: ClothingShoesBootsMagAsakim # LuaM: ClothingShoesBootsMagAdv > ClothingShoesBootsMagAsakim
     id: MarsocFTLPDA # LuaM: MarsocPDA > MarsocFTLPDA
     pocket1: DoubleEmergencyOxygenTankFilled # LuaM: CrowbarPocket > DoubleEmergencyOxygenTank
-    pocket2: WeaponPulsePistol # LuaM: WeaponEnergyRevolver > WeaponPulsePistol
+    pocket2: WeaponPulsePistol # LuaM: WeaponPistolMk58 > WeaponPulsePistol
     belt: ClothingBeltWebbingsNormalTSFMC
     neck: ClothingNeckIFFCyan
     suitStorage: OxygenTankFilled
@@ -339,13 +339,13 @@
     back: ClothingBackpackSatchelHolding # LuaM: ClothingBackpackERTLeader > ClothingBackpackSatchelHolding
     mask: ClothingMaskGasERT
     eyes: ClothingEyesTSFOfficerGlasses # LuaM: ClothingEyesHudMedSec > ClothingEyesTSFOfficerGlasses
-    ears: ClothingHeadsetAltTsfmcMarsocFtl
+    ears: ClothingHeadsetAltTsfmcMarsocFtl # LuaM: ClothingHeadsetAltTsfmcMarsoc > ClothingHeadsetAltTsfmcMarsocFtl
     gloves: ClothingHandsGlovesTacticalCombatBlack
     outerClothing: ClothingOuterHardsuitM86Mk4
     shoes: ClothingShoesBootsMagAsakim # LuaM: ClothingShoesBootsMagAdv > ClothingShoesBootsMagAsakim
     id: MarsocFTLPDA # LuaM: MarsocPDA > MarsocFTLPDA
     pocket1: DoubleEmergencyOxygenTankFilled # LuaM: CrowbarPocket > DoubleEmergencyOxygenTank
-    pocket2: WeaponPulsePistol # LuaM: WeaponEnergyRevolver > WeaponPulsePistol
+    pocket2: WeaponPulsePistol # LuaM: WeaponPistolMk58 > WeaponPulsePistol
     belt: ClothingBeltWebbingsNormalTSFMC
     neck: ClothingNeckIFFCyan
     suitStorage: OxygenTankFilled
@@ -422,7 +422,7 @@
     back: ClothingBackpackSatchelHolding # LuaM: ClothingBackpackERTLeader > ClothingBackpackSatchelHolding
     mask: ClothingMaskGasERT
     eyes: ClothingEyesTSFOfficerGlasses # LuaM: ClothingEyesHudMedSec > ClothingEyesTSFOfficerGlasses
-    ears: ClothingHeadsetAltTsfmcMarsocFtl
+    ears: ClothingHeadsetAltTsfmcMarsocFtl # LuaM: ClothingHeadsetAltTsfmcMarsoc > ClothingHeadsetAltTsfmcMarsocFtl
     gloves: ClothingHandsGlovesTacticalCombatBlack
     outerClothing: ClothingOuterHardsuitM86Mk4
     shoes: ClothingShoesBootsMagAsakim # LuaM: ClothingShoesBootsMagAdv > ClothingShoesBootsMagAsakim
