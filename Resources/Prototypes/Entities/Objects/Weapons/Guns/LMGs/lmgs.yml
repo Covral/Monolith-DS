@@ -19,8 +19,8 @@
   - type: Wieldable
     unwieldOnUse: false
   - type: GunWieldBonus # Mono
-    minAngle: -22 # LuaM: -22 > -17
-    maxAngle: -20 # LuaM: -20 > -15
+    minAngle: -17 # LuaM: -22 > -17
+    maxAngle: -15 # LuaM: -20 > -15
   - type: Gun # L6 LMG stats adjusted
     minAngle: 35 # LuaM: 24 > 35
     maxAngle: 55 # LuaM: 45 > 55
