@@ -42,8 +42,7 @@
     damage:
       types:
         Piercing: 10
-        Heat: 6
-      armorPenetration: 0.075 # LuaM add
+        Heat: 12 # LuaM: 6 > 12
 
 - type: entity
   id: Bullet57x28mmUranium
@@ -54,9 +53,8 @@
   - type: Projectile
     damage:
       types:
-        Radiation: 8
-        Piercing: 12
-      armorPenetration: 0.075 # LuaM add
+        Radiation: 12 # LuaM: 8 > 12
+        Piercing: 10 # LuaM: 12 > 10
 
 # Upstream
 - type: entity
