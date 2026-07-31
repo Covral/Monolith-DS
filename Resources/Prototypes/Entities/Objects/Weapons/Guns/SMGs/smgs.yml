@@ -101,10 +101,8 @@
   - type: Appearance
   - type: StaticPrice # Mono
     price: 2000
-  # LuaM start
-  - type: ChamberMagazineAmmoProvider
+  - type: ChamberMagazineAmmoProvider # LuaM add
     autoEject: true
-  # LuaM end
   - type: ItemSlots
     slots:
        gun_magazine:
