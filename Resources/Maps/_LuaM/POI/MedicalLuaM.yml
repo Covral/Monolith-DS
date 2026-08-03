@@ -4,8 +4,8 @@ meta:
   engineVersion: 277.0.0
   forkId: ""
   forkVersion: ""
-  time: 08/03/2026 16:50:06
-  entityCount: 4728
+  time: 08/03/2026 17:21:36
+  entityCount: 4732
 maps: []
 grids:
 - 1
@@ -181,9 +181,9 @@ entities:
     - type: ThermalSignature
     - type: SpreaderGrid
       spreadQueues:
+        Smoke: []
         Kudzu: []
         Puddle: []
-        Smoke: []
         MetalFoam: []
     - type: Shuttle
       dampingModifier: 0.25
@@ -5319,7 +5319,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -274942.34
+      secondsUntilStateChange: -275478.47
       state: Opening
   - uid: 57
     components:
@@ -5603,6 +5603,13 @@ entities:
     components:
     - type: Transform
       pos: 6.6186504,17.665611
+      parent: 1
+- proto: Akiplushie6
+  entities:
+  - uid: 4731
+    components:
+    - type: Transform
+      pos: -5.4412804,17.621847
       parent: 1
 - proto: AlwaysPoweredlightGreen
   entities:
@@ -7254,6 +7261,22 @@ entities:
     - type: Transform
       pos: -7.402981,17.51527
       parent: 1
+    - type: Storage
+      storedItems:
+        4729:
+          position: 0,0
+          _rotation: South
+        4730:
+          position: 1,0
+          _rotation: South
+    - type: ContainerContainer
+      containers:
+        storagebase: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 4729
+          - 4730
 - proto: BoxFolderWhite
   entities:
   - uid: 412
@@ -23241,6 +23264,13 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
+- proto: MaterialBluespace1
+  entities:
+  - uid: 4732
+    components:
+    - type: Transform
+      pos: -5.8162804,17.278097
+      parent: 1
 - proto: MaterialReclaimer
   entities:
   - uid: 2808
@@ -23452,6 +23482,86 @@ entities:
     - type: Transform
       pos: 3.2540984,-5.378081
       parent: 1
+  - uid: 4729
+    components:
+    - type: Transform
+      parent: 411
+    - type: Paper
+      content: >-
+        [head=3]Медецинский центр[/head]
+
+        [head=3]Сектор Коллос[/head]
+
+        ═════════════════════════════════════
+
+        [bold]Свидетельство о смерти[/bold]
+
+        ═════════════════════════════════════
+
+        Время и дата составления: (Год 2959)
+
+        Составитель документа:
+
+        Должность составителя:
+
+
+        ФИО умершего:
+
+        Должность умершего:
+
+        Раса:
+
+        Пол:
+
+        Причина смерти:
+
+        Возможность проведения реанимации или клонирования:
+
+        ═════════════════════════════════════
+
+        [italic]Место для печатей[/italic]
+    - type: Physics
+      canCollide: False
+  - uid: 4730
+    components:
+    - type: Transform
+      parent: 411
+    - type: Paper
+      content: >-
+        [head=3]Медецинский центр[/head]
+
+        [head=3]Сектор Коллос[/head]
+
+        ═════════════════════════════════════
+
+        [bold]Свидетельство о смерти[/bold]
+
+        ═════════════════════════════════════
+
+        Время и дата составления: (Год 2959)
+
+        Составитель документа:
+
+        Должность составителя:
+
+
+        ФИО умершего:
+
+        Должность умершего:
+
+        Раса:
+
+        Пол:
+
+        Причина смерти:
+
+        Возможность проведения реанимации или клонирования:
+
+        ═════════════════════════════════════
+
+        [italic]Место для печатей[/italic]
+    - type: Physics
+      canCollide: False
 - proto: PaperAccessLogs
   entities:
   - uid: 2833
