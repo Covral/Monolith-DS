@@ -150,8 +150,8 @@
   - FlailPeripheralsElectronics
   - FlailTargetingElectronics
   - HeavyMechRPG
-  - HeavyMechCannon
-  - HeavyMechProjector
+#  - HeavyMechCannon # Commented by LuaM
+#  - HeavyMechProjector # Commented by LuaM
   technologyPrerequisites:
   - Broadsword
   position: 4, 11
