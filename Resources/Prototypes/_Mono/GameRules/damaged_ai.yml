@@ -105,4 +105,4 @@
   - type: GameRule
     minPlayers: 60
   - type: LoadMapRule
-    gridPath: /Maps/_Mono/ShuttleEvent/wyvern.yml
+    gridPath: /Maps/_LuaM/ShuttleEvent/WyvernLuaM.yml
