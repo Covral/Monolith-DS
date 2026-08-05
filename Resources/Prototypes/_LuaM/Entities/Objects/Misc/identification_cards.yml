@@ -16,8 +16,6 @@
     - NuclearOperative
     - SyndicateAgent
     - Mercenary
-  - type: IdCard
-    jobTitle: Warrior "Asakim" # Надо сделать так чтобы карта подсасывала название на русском, пока не получается, побудет на англ.
   - type: Tag #  Ignore Chameleon tags
     tags:
     - DoorBumpOpener
