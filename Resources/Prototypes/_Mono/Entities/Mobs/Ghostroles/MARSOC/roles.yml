@@ -24,7 +24,7 @@
     prototypes: [MarsocOperativeGear]
     roleLoadout: [RoleSurvivalTankOnly]
   - type: GhostRole
-    name: ghost-role-information-marsoc-ftl-name # LuaM: ghost-role-information-marsoc-operative-name > ghost-role-information-marsoc-ftl-name
+    name: ghost-role-information-marsoc-operative-name
     description: ghost-role-information-marsoc-description
     rules: ghost-role-information-marsoc-rules
     raffle:
