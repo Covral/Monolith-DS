@@ -1,0 +1,33 @@
+- type: job
+  id: NordDeadsquad
+  name: ghost-role-information-NordDS-ftl-name
+  description: ghost-role-information-NordDS-description
+  playTimeTracker: JobNordDeadsquad
+  requirements:
+  - !type:OverallPlaytimeRequirement
+    time: 108000 # 30 hours
+  startingGear: NordDeadsquadGear
+  icon: "JobIconPirateCaptain"
+  supervisors: job-supervisors-ws
+  canBeAntag: false
+  setPreference: false
+  accessGroups:
+  - AllAccess
+  access:
+  - Pirate
+  - GrandVizier
+  - PDVCommand
+  - Mercenary
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: NpcFactionMember
+      factions:
+      - PirateNF
+  - !type:AddImplantSpecial
+    implants: [ FreelanceTrackingImplant ]
+  - !type:AddLanguageSpecial
+    languagesSpoken:
+    - Freespeak
+    languagesUnderstood:
+    - Freespeak
