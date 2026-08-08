@@ -130,7 +130,7 @@
   - type: SurgerySpeedModifier
     speedModifier: 1.5
 
-- type: roleLoadout
-  id: RoleSurvivalTankOnly
-  groups:
-  - GroupEVATank
+#- type: roleLoadout # Commented by LuaM # Ты как блять вызываешь ошибку....
+#  id: RoleSurvivalTankOnly
+#  groups:
+#  - GroupEVATank
