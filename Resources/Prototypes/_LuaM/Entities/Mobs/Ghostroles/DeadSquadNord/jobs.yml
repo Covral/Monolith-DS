@@ -2,7 +2,6 @@
   id: NordDeadsquad
   name: ghost-role-information-NordDS-ftl-name
   description: ghost-role-information-NordDS-description
-  playTimeTracker: JobNordDeadsquad
   requirements:
   - !type:OverallPlaytimeRequirement
     time: 108000 # 30 hours
