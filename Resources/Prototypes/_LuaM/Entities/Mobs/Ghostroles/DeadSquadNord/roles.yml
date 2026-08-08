@@ -56,7 +56,7 @@
     factions:
     - PirateNF
   - type: Company
-    companyName: PDVCommand
+    companyName: PDV
   - type: SurgerySpeedModifier
     speedModifier: 1.5
 
