@@ -25,6 +25,6 @@
         - type: StationNameSetup
           mapNameTemplate: 'Bar "Jolly Roger"'
         - type: StationDeadDrop
-          maxDeadDrops: 2 # A few, its not as big as the original trade outpost
+          maxDeadDrops: 2
         - type: TradeCrateDestination
           destinationProto: Trade
