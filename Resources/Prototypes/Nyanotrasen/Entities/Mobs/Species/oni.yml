@@ -27,6 +27,7 @@
       coefficients:
         Blunt: 1.45 # LuaM: 1.2 > 1.45
         Slash: 1.45 # LuaM: 1.2 > 1.45
+        Heat: 1.45 # LuaM add
         Piercing: 1.2
         Asphyxiation: 1.2
   - type: Damageable
