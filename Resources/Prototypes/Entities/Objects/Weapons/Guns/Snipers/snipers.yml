@@ -114,6 +114,10 @@
     pvsIncrease: 0.7 # Mono - Sniper Buff
   - type: StaticPrice # Mono
     price: 1250
+  - type: WieldDelay # LuaM add
+    baseDelay: 3.5
+    modifiedDelay: 3.5
+    preventFiring: true
 
 - type: entity
   name: musket
