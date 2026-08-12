@@ -10,27 +10,27 @@
 
 - type: company
   id: TSF
-  name: TSF
+  name: Корпус Морпехов ТСФ # LuaM locale: TSF > Корпус Морпехов ТСФ
   color: "#047ABD"
   disabled: true
   companyUplinkCurrency: FederationMilitaryCredit
 
 - type: company
   id: PDV
-  name: Vanguard Nordfall # LuaM: PDV > Vanguard Nordfall
+  name: Авангард Нордфолл # LuaM: PDV > Vanguard Nordfall Locale: Авангард Нордфолл
   color: "#E03131FF" # LuaM: #D2B48C > #E03131FF
   disabled: true
   companyUplinkCurrency: Doubloon
 
 - type: company
   id: MD
-  name: MED
+  name: Медицинский Персонал # LuaM locale: MED > Медицинский Персонал
   color: "#3B8EEA"
   disabled: true
 
 - type: company
   id: Colonial
-  name: Colonial Staff
+  name: Колосс Централл # LuaM locale: Colonial Staff > Колосс Централл
   color: "#279659"
   disabled: true
 
