@@ -10,7 +10,7 @@
 
 - type: company
   id: TSF
-  name: Корпус Морпехов ТСФ # LuaM locale: TSF > Корпус Морпехов ТСФ
+  name: Корпус Морпехов ТСФ # LuaM: TSF > Корпус Морпехов ТСФ
   color: "#047ABD"
   disabled: true
   companyUplinkCurrency: FederationMilitaryCredit
@@ -24,13 +24,13 @@
 
 - type: company
   id: MD
-  name: Медицинский Персонал # LuaM locale: MED > Медицинский Персонал
+  name: Медицинский Персонал # LuaM: MED > Медицинский Персонал
   color: "#3B8EEA"
   disabled: true
 
 - type: company
   id: Colonial
-  name: Колосс Централл # LuaM locale: Colonial Staff > Колосс Централл
+  name: Персонал Колосса # LuaM: Colonial Staff > Персонал Колосса
   color: "#279659"
   disabled: true
 
