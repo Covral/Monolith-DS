@@ -17,8 +17,8 @@
 
 - type: company
   id: PDV
-  name: PDV
-  color: "#D2B48C"
+  name: Vanguard Nordfall # LuaM: PDV > Vanguard Nordfall
+  color: "#E03131FF" # LuaM: #D2B48C > #E03131FF
   disabled: true
   companyUplinkCurrency: Doubloon
 
@@ -192,7 +192,7 @@
   description: viper-group-description
   color: "#B82121"
   image: /Textures/_Mono/Companies/thevipergroup.png # Example
-  whitelisted: true
+  whitelisted: false # LuaM: true > false
 
 - type: company
   id: RedSailCorsairs
