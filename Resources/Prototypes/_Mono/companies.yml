@@ -17,7 +17,7 @@
 
 - type: company
   id: PDV
-  name: Авангард Нордфолл # LuaM: PDV > Vanguard Nordfall Locale: Авангард Нордфолл
+  name: Авангард «Нордфолл» # LuaM: PDV > Vanguard Nordfall Locale: «Авангард Нордфолл»
   color: "#E03131FF" # LuaM: #D2B48C > #E03131FF
   disabled: true
   companyUplinkCurrency: Doubloon
@@ -169,12 +169,13 @@
   name: The Hive
   description: The-Hive-description
   color: "#5918a8"
+  disabled: true # LuaM add
 
 # Black Market Companies
 
 - type: company
   id: paycheckbratva
-  name: Paycheck Bratva
+  name: Пайчек Братва # LuaM: Paycheck Bratva > Пайчек Братва
   description: paycheck-bratva-description
   color: "#7a0303"
 
