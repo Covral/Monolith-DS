@@ -4,12 +4,12 @@
     jumpsuit: ClothingUniformJumpsuitNfsd
     back: ClothingBackpackSatchelHolding
     mask: ClothingMaskGasSyndicate
-    eyes: ClothingEyesTSFOfficerGlasses # Позже свои очки сделаем.
-    ears: ClothingHeadsetAltVanguardCommand # Пока тоже так, позже им свой канал и гарнитуру.
+    eyes: ClothingEyesTSFOfficerGlasses #TODO: Позже свои очки сделаем.
+    ears: ClothingHeadsetAltVanguardCommand #TODO: Пока тоже так, позже им свой канал и гарнитуру.
     gloves: ClothingHandsGlovesTacticalCombatBlack
-    outerClothing: ClothingOuterHardsuitVizier # По хорошему им бы свой скаф создать, но пока что такой, в будущем поменять надо.
+    outerClothing: ClothingOuterHardsuitVizier #TODO: По хорошему им бы свой скаф создать, но пока что такой, в будущем поменять надо.
     shoes: ClothingShoesBootsMagPDVAdvanced
-    id: PDVGrandVizierPDA # Пока временно такое КПК, попозже сделаем отдельный спрайт и карточку свою.
+    id: PDVGrandVizierPDA #TODO: Пока временно такое КПК, попозже сделаем отдельный спрайт и карточку свою.
     pocket1: DoubleEmergencyOxygenTankFilled
     pocket2: WeaponRevolverDragoon
     belt: ClothingBeltMilitaryWebbingMed

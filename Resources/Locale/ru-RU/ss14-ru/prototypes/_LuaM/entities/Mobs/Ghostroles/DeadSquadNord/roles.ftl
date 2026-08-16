@@ -1,6 +1,4 @@
-ent-MobHumanDeadComSquadeNord = Командир отряда смерти
-    .desc = Командир "Отряда смерти"
-ent-MobHumanDeadSquadeNord = Оперативник отряда смерти
-    .desc = Оперативник "Отряда смерти"
+ent-MobHumanDeadComSquadeNord = Командир Отряда Смерти
+ent-MobHumanDeadSquadeNord = Оперативник Отряда Смерти
 ent-MobHumanDSNordBase = человек, базовый
-    .desc = болванка для роли
+
