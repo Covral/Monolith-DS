@@ -1,14 +1,8 @@
 ent-MobHumanMarsocFTL = командир огневой группы MARSOC
-    .desc = Командир отряда Марсок
 ent-MobHumanMarsocOperative = оперативник MARSOC
-    .desc = Оперативник отряда Марсок
 ent-MobHumanMarsocMarksman = снайпер MARSOC
-    .desc = Снайпер отряда Марсок
 ent-MobHumanMarsocCorpsman = санитар MARSOC
-    .desc = Медик отряда марсок
 ent-MobHumanMarsocSGO = оператор смарт-пушки MARSOC
-    .desc = Смартган оператор Марсок
 ent-MobHumanMarsocAutorifleman = пулемётчик MARSOC
-    .desc = Пулеметчик отряда марсок
 ent-MobHumanMarsocBase = человек, базовый
-    .desc = ghost-role-information-marsoc-description
+
