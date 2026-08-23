@@ -20,7 +20,7 @@
     action: ActionToggleNightVision
     phosphorColor: "#c2ffc2"
     lightingColor: "#0EFFFFFF"
-    amplification: 10.0
+    amplification: 4.0
 # LuaM end
   - type: IdentityBlocker
     coverage: EYES

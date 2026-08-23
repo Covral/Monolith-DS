@@ -24,4 +24,4 @@
     action: ActionToggleNightVision
     phosphorColor: "#c6612f"
     lightingColor: "#ff5500"
-    amplification: 4.0
+    amplification: 2.0
