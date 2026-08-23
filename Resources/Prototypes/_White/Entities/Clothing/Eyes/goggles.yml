@@ -10,12 +10,6 @@
     sprite: _White/Clothing/Eyes/Goggles/nightvision.rsi
   - type: Clothing
     sprite: _White/Clothing/Eyes/Goggles/nightvision.rsi
-  - type: NightVision # LuaM edit start:
-    relayOverlay: true
-    goggleEffect: true
-    viewCircleRadius: 880
-    viewCircleCount: 1
-    viewCircleSpacing: 1
 # LuaM start
   - type: NightVision
     relayOverlay: true
@@ -39,18 +33,12 @@
   name: night vision goggles (GEN1)
   suffix: DEBUG
   components:
-# LuaM start
   - type: NightVision
-    relayOverlay: true
-    goggleEffect: true
-    viewCircleRadius: 1000
-    viewCircleCount: 3
-    viewCircleSpacing: 280
     action: ActionToggleNightVision
-    phosphorColor: "#c2ffc2"
-    lightingColor: "#0EFFFFFF"
-    amplification: 8.0
-# LuaM end
+    viewCircleRadius: 400
+    viewCircleCount: 1
+    viewCircleSpacing: 280
+    phosphorColor: "#00FF00"
 
 - type: entity
   parent: ClothingEyesNightVisionGoggles
@@ -58,18 +46,12 @@
   name: night vision goggles (GEN2)
   suffix: DEBUG
   components:
-# LuaM start
   - type: NightVision
-    relayOverlay: true
-    goggleEffect: true
-    viewCircleRadius: 1000
-    viewCircleCount: 3
-    viewCircleSpacing: 280
     action: ActionToggleNightVision
-    phosphorColor: "#c2ffc2"
-    lightingColor: "#0EFFFFFF"
-    amplification: 6.0
-# LuaM end
+    viewCircleRadius: 400
+    viewCircleCount: 2
+    viewCircleSpacing: 280
+    phosphorColor: "#00FF00"
 
 - type: entity
   parent: ClothingEyesNightVisionGoggles
@@ -77,18 +59,12 @@
   name: night vision goggles (GEN3)
   suffix: DEBUG
   components:
-# LuaM start
   - type: NightVision
-    relayOverlay: true
-    goggleEffect: true
-    viewCircleRadius: 1000
-    viewCircleCount: 3
-    viewCircleSpacing: 280
     action: ActionToggleNightVision
-    phosphorColor: "#c2ffc2"
-    lightingColor: "#0EFFFFFF"
-    amplification: 4.0
-# LuaM end
+    viewCircleRadius: 450
+    viewCircleCount: 2
+    viewCircleSpacing: 280
+    phosphorColor: "#00FF00"
 
 - type: entity
   parent: ClothingEyesNightVisionGoggles
@@ -96,18 +72,12 @@
   name: night vision goggles (GEN4)
   suffix: DEBUG
   components:
-# LuaM start
   - type: NightVision
-    relayOverlay: true
-    goggleEffect: true
-    viewCircleRadius: 1000
-    viewCircleCount: 3
-    viewCircleSpacing: 280
     action: ActionToggleNightVision
-    phosphorColor: "#c2ffc2"
-    lightingColor: "#0EFFFFFF"
-    amplification: 2.0
-# LuaM end
+    viewCircleRadius: 400
+    viewCircleCount: 4
+    viewCircleSpacing: 260
+    phosphorColor: "#41D7D9"
 # Mono end
 
 - type: entity
