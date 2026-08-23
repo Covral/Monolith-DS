@@ -6,16 +6,15 @@
   components:
   - type: Organ
     onAdd:
-  - type: NightVision
-    relayOverlay: true
-    goggleEffect: true
-    viewCircleRadius: 1000
-    viewCircleCount: 3
-    viewCircleSpacing: 280
-    action: ActionToggleNightVision
-    phosphorColor: "#2df9d7"
-    lightingColor: "#0EFFFFFF"
-    amplification: 12.0
+    - type: NightVision
+      relayOverlay: true
+      goggleEffect: true
+      viewCircleRadius: 880
+      viewCircleCount: 1
+      viewCircleSpacing: 1
+      action: ActionToggleNightVision
+      phosphorColor: "#986033"
+      lightingColor: "#ffffff52"
   - type: Sprite
     sprite: _LuaM/Body/Organs/tajaran-eyes.rsi
     layers:
