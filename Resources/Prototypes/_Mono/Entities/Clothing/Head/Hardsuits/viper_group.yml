@@ -11,7 +11,7 @@
     sprite: _Mono/Clothing/Head/Hardsuits/viper_group_standard.rsi
   - type: PointLight
     color: "#eb772a"
-  # LuaM start
+# LuaM start
   - type: NightVision
     relayOverlay: true
     goggleEffect: true
@@ -21,8 +21,8 @@
     action: ActionToggleNightVision
     phosphorColor: "#c2ffc2"
     lightingColor: "#0EFFFFFF"
-    amplification: 1.0
-  # LuaM end
+    amplification: 4.0
+# LuaM end
   - type: PressureProtection
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 1000
@@ -63,7 +63,7 @@
   - type: PressureProtection
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 1000
-  # LuaM start
+# LuaM start
   - type: NightVision
     relayOverlay: true
     goggleEffect: true
@@ -73,8 +73,8 @@
     action: ActionToggleNightVision
     phosphorColor: "#c2ffc2"
     lightingColor: "#0EFFFFFF"
-    amplification: 1.0
-  # LuaM end
+    amplification: 4.0
+# LuaM end
   - type: Armor
     modifiers:
       coefficients:
@@ -105,7 +105,7 @@
   - type: PressureProtection
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 1000
-  # LuaM start
+# LuaM start
   - type: NightVision
     relayOverlay: true
     goggleEffect: true
@@ -115,8 +115,8 @@
     action: ActionToggleNightVision
     phosphorColor: "#c2ffc2"
     lightingColor: "#0EFFFFFF"
-    amplification: 1.0
-  # LuaM end
+    amplification: 4.0
+# LuaM end
   - type: Armor
     modifiers:
       coefficients:
@@ -165,6 +165,18 @@
         Piercing: 0.9 # LuaM: 0.95 > 0.9
         Heat: 0.9 # LuaM: 0.95 > 0.9
   - type: FlashImmunity
+# LuaM start
+  - type: NightVision
+    relayOverlay: true
+    goggleEffect: true
+    viewCircleRadius: 1000
+    viewCircleCount: 3
+    viewCircleSpacing: 280
+    action: ActionToggleNightVision
+    phosphorColor: "#c2ffc2"
+    lightingColor: "#0EFFFFFF"
+    amplification: 4.0
+# LuaM end
   - type: HideLayerClothing
     slots:
     - Hair

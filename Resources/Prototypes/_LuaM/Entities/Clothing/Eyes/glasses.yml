@@ -15,7 +15,6 @@
     pulseTime: 2
     isEquipment: true
     toggleAction: PulseThermalVision
-  # LuaM start
   - type: NightVision
     relayOverlay: true
     goggleEffect: true
@@ -23,7 +22,6 @@
     viewCircleCount: 3
     viewCircleSpacing: 280
     action: ActionToggleNightVision
-    phosphorColor: "#ff8142"
+    phosphorColor: "#c6612f"
     lightingColor: "#ff5500"
     amplification: 4.0
-# LuaM end

@@ -16,15 +16,18 @@
   components:
   - type: Organ
     onAdd:
-    - type: NightVision # LuaM edit start:
-      relayOverlay: true
-      goggleEffect: true
-      viewCircleRadius: 880
-      viewCircleCount: 1
-      viewCircleSpacing: 1
-      action: ActionToggleNightVision
-      phosphorColor: "#986033"
-      lightingColor: "#ffffff52" #LuaM edit end.
+# LuaM start
+  - type: NightVision
+    relayOverlay: true
+    goggleEffect: true
+    viewCircleRadius: 1000
+    viewCircleCount: 3
+    viewCircleSpacing: 280
+    action: ActionToggleNightVision
+    phosphorColor: "#c2ffc2"
+    lightingColor: "#0EFFFFFF"
+    amplification: 1.0
+# LuaM end
 
 - type: entity
   id: OrganAsakimHeart

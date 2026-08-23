@@ -9,7 +9,7 @@
     sprite: _LuaM/Clothing/Head/Hardsuits/syndicate.rsi # LuaM: _Mono/Clothing/Head/Hardsuits/syndicate.rsi -> _LuaM/Clothing/Head/Hardsuits/syndicate.rsi
   - type: Clothing
     sprite: _LuaM/Clothing/Head/Hardsuits/syndicate.rsi # LuaM: _Mono/Clothing/Head/Hardsuits/syndicate.rsi -> _LuaM/Clothing/Head/Hardsuits/syndicate.rsi
-  # LuaM start
+# LuaM start
   - type: NightVision
     relayOverlay: true
     goggleEffect: true
@@ -20,7 +20,7 @@
     phosphorColor: "#c2ffc2"
     lightingColor: "#0EFFFFFF"
     amplification: 1.0
-  # LuaM end
+# LuaM end
 
 - type: entity
   parent: [ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, ShowMedicalIcons, ShowSecurityIcons]
@@ -69,7 +69,7 @@
     sprite: _LuaM/Clothing/Head/Hardsuits/syndieelite.rsi # LuaM: _Mono/Clothing/Head/Hardsuits/syndieelite.rsi -> _LuaM/Clothing/Head/Hardsuits/syndieelite.rsi
   - type: Clothing
     sprite: _LuaM/Clothing/Head/Hardsuits/syndieelite.rsi # LuaM: _Mono/Clothing/Head/Hardsuits/syndieelite.rsi -> _LuaM/Clothing/Head/Hardsuits/syndieelite.rsi
-  # LuaM start
+# LuaM start
   - type: NightVision
     relayOverlay: true
     goggleEffect: true
@@ -80,7 +80,7 @@
     phosphorColor: "#c2ffc2"
     lightingColor: "#0EFFFFFF"
     amplification: 1.0
-  # LuaM end
+# LuaM end
 
 - type: entity
   parent: [ClothingHeadHelmetHardsuitSyndieElite, ShowSecurityIcons, ShowMedicalIcons ] # LuaM add ShowMedicalIcons
@@ -93,7 +93,7 @@
     sprite: _LuaM/Clothing/Head/Hardsuits/pdv_vizier.rsi # LuaM: _Mono/Clothing/Head/Hardsuits/pdv_vizier.rsi -> _LuaM/Clothing/Head/Hardsuits/pdv_vizier.rsi
   - type: Clothing
     sprite: _LuaM/Clothing/Head/Hardsuits/pdv_vizier.rsi # LuaM: _Mono/Clothing/Head/Hardsuits/pdv_vizier.rsi -> _LuaM/Clothing/Head/Hardsuits/pdv_vizier.rsi
-  # LuaM start
+# LuaM start
   - type: NightVision
     relayOverlay: true
     goggleEffect: true
@@ -104,4 +104,4 @@
     phosphorColor: "#c2ffc2"
     lightingColor: "#0EFFFFFF"
     amplification: 1.0
-  # LuaM end
+# LuaM end
