@@ -23,7 +23,7 @@
     viewCircleCount: 3
     viewCircleSpacing: 280
     action: ActionToggleNightVision
-    phosphorColor: "#337a98"
+    phosphorColor: "#ff8142"
     lightingColor: "#ff5500"
     amplification: 4.0
 # LuaM end
