@@ -20,6 +20,18 @@
         Piercing: 0.9
         Heat: 0.9
   - type: FlashImmunity
+  # LuaM start
+  - type: NightVision
+    relayOverlay: true
+    goggleEffect: true
+    viewCircleRadius: 1000
+    viewCircleCount: 3
+    viewCircleSpacing: 280
+    action: ActionToggleNightVision
+    phosphorColor: "#c2ffc2"
+    lightingColor: "#0EFFFFFF"
+    amplification: 1.0
+  # LuaM end
   - type: EyeProtection
     protectionTime: 15
   - type: ThermalVision

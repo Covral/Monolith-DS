@@ -18,7 +18,8 @@
     viewCircleSpacing: 1
     action: ActionToggleNightVision
     phosphorColor: "#337a98"
-    lightingColor: "#ffffff52" #LuaM edit end.
+    lightingColor: "#ffffff52"
+    amplification: 12.0 #LuaM edit end.
   - type: IdentityBlocker
     coverage: EYES
 
