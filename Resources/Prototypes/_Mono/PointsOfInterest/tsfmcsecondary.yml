@@ -46,7 +46,7 @@
             Bailiff: [1, 1 ] # LuaM add
             SeniorOfficer: [ 0, 3 ]
             Brigmedic: [ 0, 1 ]
-            Deputy: [ -1, -1 ]
+            Deputy: [ 4, 4 ] # LuaM Deputy: [ -1, -1 ] > Deputy: [ 4, 4 ]
             TsfEngineer: [ 1, 1 ] # LuaM add
             TsfBorg: [ 1, 1 ] # LuaM add
           tags:
