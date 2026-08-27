@@ -47,12 +47,13 @@
             SeniorOfficer: [ 0, 3 ]
             Brigmedic: [ 0, 1 ]
             Deputy: [ -1, -1 ]
+            TsfEngineer: [ 1, 1 ] # LuaM add
+            TsfBorg: [ 1, 1 ] # LuaM add
           tags:
           - HeadOfPersonnel
           - HeadOfSecurity
-#        - type: StationDeadDropHintExempt # LuaM commented
+        - type: StationDeadDropHintExempt
       # LuaM start
         - type: StationDeadDropReporting
           messageSet: Nfsd
-        - type: StationDeadDropHintExempt
       # LuaM end
