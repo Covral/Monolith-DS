@@ -117,7 +117,7 @@
 # POI
 - type: entity
   id: ShieldGeneratorPOI
-  parent: ShieldGeneratorBase
+  parent: [ ShieldGeneratorBase , BaseStructureDisableAnchoring ] # LuaM add BaseStructureDisableAnchoring
   name: FS-421 "Fortress" Outpost Shield Generator
   description: The Fortress. The latest and greatest in static, large-scale shielding.
   suffix: POI ONLY
@@ -300,7 +300,7 @@
   components:
   - type: ShipShieldEmitter
     damageLimit: 720000 # LuaM: 180000 > 720000
-    healPerSecond: 3000 # Base is 250 # LuaM 750 > 3000
+    healPerSecond: 3000 # Base is 250 # LuaM: 750 > 3000
     damageExp: 1.05 # Base is 1.1
     baseDraw: 15000 # Base is 50000 # LuaM: 30000 > 15000
     maxDraw: 300000 # Base is 150000 # LuaM: 75000 > 300000
