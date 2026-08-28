@@ -27,8 +27,10 @@
   access:
   - ChiefMedicalOfficer #Mono
   special:
+#  - !type:AddImplantSpecial  # LuaM commented
+#    implants: [ MindShieldImplant ] # Mono - remove TSFMC implant
   - !type:AddImplantSpecial
-    implants: [ MindShieldImplant ] # Mono - remove TSFMC implant
+    implants: [ FreelanceTrackingImplant , TrackingImplant ] # LuaM add
   - !type:AddComponentSpecial
     components:
       - type: CommandStaff
@@ -43,8 +45,10 @@
   - !type:AddLanguageSpecial # LuaM
     languagesSpoken:
     - SolCommon
+    - Freespeak
     languagesUnderstood:
     - SolCommon
+    - Freespeak
 
 - type: startingGear
   id: DocGear
