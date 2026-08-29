@@ -1,15 +1,15 @@
 - type: vessel
   id: SerkeshMK2
   parent: BaseVesselAntag
-  name: vessel-SerkeshMK2-name
-  description: vessel-SerkeshMK2-desc
+  name: vessel-SerkeshMk2-name
+  description: vessel-SerkeshMk2-desc
   price: 218000
   purchasable: true
   category: Medium
   group: Sr
   access: Security
   mapchecker_group_override: Security
-  shuttlePath: /Maps/_LuaM/Shuttles/CC/SerkeshMK2.yml
+  shuttlePath: /Maps/_LuaM/Shuttles/CC/SerkeshMk2.yml
   guidebookPage: Null
   class:
   - Patrol
@@ -21,12 +21,12 @@
       color: "#009900"
 
 - type: gameMap
-  id: SerkeshMK2
-  mapName: 'SerkeshMK2'
-  mapPath: /Maps/_LuaM/Shuttles/CC/SerkeshMK2.yml
+  id: SerkeshMk2
+  mapName: 'SerkeshMk2'
+  mapPath: /Maps/_LuaM/Shuttles/CC/SerkeshMk2.yml
   minPlayers: 0
   stations:
-    SerkeshMK2:
+    SerkeshMk2:
       stationProto: StandardFrontierVessel
       components:
       - type: StationNameSetup
