@@ -19,7 +19,7 @@
   - Medical
   special:
 #  - !type:AddImplantSpecial  # LuaM commented
-#    implants: MindShieldImplant # LuaM delete TrackingImplant
+#    implants: MindShieldImplant
   - !type:AddComponentSpecial
     components:
       - type: NpcFactionMember
