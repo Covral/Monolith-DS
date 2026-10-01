@@ -131,6 +131,7 @@
     - Mercury
     - Spekter
     - Cinquedea
+    - TSFMCArrow # LuaM
 
 - type: entity
   parent: BaseShipLPCRenewable
@@ -265,6 +266,8 @@
     - Layak
     - Scorpion
     - Osa
+    - ScorpionART # LuaM
+    - ScorpionMSL # LuaM
 
 - type: entity
   parent: ShipVoucherPdvT0
