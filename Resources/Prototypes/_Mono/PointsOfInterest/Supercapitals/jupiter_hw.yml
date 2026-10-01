@@ -8,21 +8,21 @@
   id: Jupiter_HW
   parent: [BaseMobilePOI, BaseRepairablePOI]
   name: 'Крейсер AN-474 «Юпитер»' # LuaM: 'PDV Jupiter Class Carrier' > 'Крейсер AN-474 «Юпитер»'
-  minimumDistance: 10000 # LuaM : 17000 > 10000
-  maximumDistance: 12000 # LuaM : 19000 > 12000
+  minimumDistance: 12000
+  maximumDistance: 15000
   spawnGamePreset: [ MonoRogueTSFHyperwar ]
   spawnGroup: Required
-  gridPath: /Maps/_LuaM/POI/JupiterLuaM.yml # LuaM: /Maps/_Mono/POI/jupiter.yml > /Maps/_LuaM/POI/JupiterLuaM.yml
+  gridPath: /Maps/_Mono/Supercapitals/jupiter_hw.yml
   addComponents:
   - type: IFF
-    color: "#e03131" # LuaM: d1bf58 > e03131
+    color: "#d1bf58"
     flags: [HideLabel]
     readOnly: false
 
 - type: gameMap
   id: Jupiter_HW
   mapName: 'PDV Jupiter'
-  mapPath: /Maps/_LuaM/POI/JupiterLuaM.yml # LuaM: /Maps/_Mono/POI/jupiter.yml > /Maps/_LuaM/POI/JupiterLuaM.yml
+  mapPath: /Maps/_Mono/Supercapitals/jupiter_hw.yml
   minPlayers: 0
   stations:
     Jupiter_HW:

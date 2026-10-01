@@ -42060,7 +42060,7 @@ entities:
     - type: Transform
       pos: 4.5,52.5
       parent: 1
-- proto: KitchenDeepFryerPOI
+- proto: KitchenDeepFryerCauldronPOI
   entities:
   - uid: 6015
     components:

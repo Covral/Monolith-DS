@@ -12,11 +12,11 @@
   id: USSPCamelot
   parent: [BasePOI, BaseRepairablePOI]
   name: 'Станция «Камелот»' # LuaM: 'Camelot Station' > 'Станция «Камелот»'
-  minimumDistance: 8000 # LuaM 10650 > 8000
-  maximumDistance: 9000 # LuaM 12400 > 9000
+  minimumDistance: 10650
+  maximumDistance: 12400
   spawnGamePreset: [ NFAdventure, NFPirate, MonoStandard, MonoRogueUSSP, MonoTSFUSSP, MonoADS, MonoChimera, MonoMixed, MonoAllAtOnce, MonoChimeraTsf, MonoChimeraPdv ]
   spawnGroup: Required
-  gridPath: /Maps/_LuaM/POI/camelotLuaM.yml # LuaM: /Maps/_Mono/POI/camelot.yml -> /Maps/_LuaM/POI/camelotLuaM.yml
+  gridPath: /Maps/_Mono/POI/camelot.yml
   addComponents:
   - type: IFF
     color: "#ccaa55"
@@ -31,7 +31,7 @@
 - type: gameMap
   id: USSPCamelot
   mapName: 'Freeport Camelot'
-  mapPath: /Maps/_LuaM/POI/camelotLuaM.yml # LuaM: /Maps/_Mono/POI/camelot.yml -> /Maps/_LuaM/POI/camelotLuaM.yml
+  mapPath: /Maps/_Mono/POI/camelot.yml
   minPlayers: 0
   stations:
     USSPCamelot:
