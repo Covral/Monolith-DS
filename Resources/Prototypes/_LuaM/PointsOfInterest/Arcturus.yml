@@ -1,7 +1,7 @@
 - type: pointOfInterest
   id: TSFMCOutpost
   parent: [BaseMobilePOI, BaseRepairablePOI]
-  name: 'Крейсер TSFMC-113 Арктурус'
+  name: 'Крейсер TSFMC-113 «Арктурус»'
   minimumDistance: 4500
   maximumDistance: 5500
   spawnGamePreset: [ NFAdventure, NFPirate, MonoStandard, MonoRogueTSF, MonoTSFUSSP, MonoADS, MonoChimera, MonoMixed, MonoAllAtOnce ]

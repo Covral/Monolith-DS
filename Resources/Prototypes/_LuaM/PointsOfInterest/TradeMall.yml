@@ -1,7 +1,7 @@
 - type: pointOfInterest
   id: TradeMall
   parent: [BasePOI, BaseRepairablePOI]
-  name: Торговый Центр # LuaM: Trade Mall > Торговый Центр
+  name: Торговый Центр
   minimumDistance: 3500
   maximumDistance: 6500
   spawnGroup: MarketStation
@@ -17,7 +17,6 @@
     doNotCull: true
   - type: WorldGenDistanceCarver
     distanceThresholds:
-      # Dead zone
       - maxDistance: 500
         prob: 0.0
       - maxDistance: 1000
@@ -37,6 +36,6 @@
         - type: StationNameSetup
           mapNameTemplate: 'Trade Mall'
         - type: StationDeadDrop
-          maxDeadDrops: 2 # A few, its not as big as the original trade outpost
+          maxDeadDrops: 2
         - type: TradeCrateDestination
           destinationProto: Trade

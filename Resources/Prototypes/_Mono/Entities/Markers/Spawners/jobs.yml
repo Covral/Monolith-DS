@@ -1,16 +1,16 @@
 # TSF
 
-# Commented by LuaM: TSF civilian role is disabled
-#- type: entity
-#  id: SpawnPointTSFCivilian
-#  parent: SpawnPointJobBase
-#  name: TSF Civilian Spawn
-#  components:
-#  - type: SpawnPoint
-#    job_id: TsfCivilian
-#  - type: Sprite
-#    sprite: _NF/Structures/Decoration/banner.rsi
-#    state: banner-blue
+- type: entity
+  id: SpawnPointTSFCivilian
+  parent: SpawnPointJobBase
+  name: TSF Civilian Spawn
+  categories: [ HideSpawnMenu ] # LuaM
+  components:
+  - type: SpawnPoint
+    # job_id: TsfCivilian # LuaM: role is disabled
+  - type: Sprite
+    sprite: _NF/Structures/Decoration/banner.rsi
+    state: banner-blue
 
 #PDV
 - type: entity
@@ -35,17 +35,17 @@
     sprite: Structures/Decoration/banner.rsi
     state: banner-red
 
-# Commented by LuaM: infantry roles and Crocus mode are disabled
-#- type: entity
-#  id: SpawnPointPDVInfantry
-#  parent: SpawnPointJobBase
-#  name: PDV Infantry
-#  components:
-#  - type: SpawnPoint
-#    job_id: PdvInfantry
-#  - type: Sprite
-#    sprite: Structures/Decoration/banner.rsi
-#    state: banner-red
+- type: entity
+  id: SpawnPointPDVInfantry
+  parent: SpawnPointJobBase
+  name: PDV Infantry
+  categories: [ HideSpawnMenu ] # LuaM
+  components:
+  - type: SpawnPoint
+    # job_id: PdvInfantry # LuaM: role is disabled
+  - type: Sprite
+    sprite: Structures/Decoration/banner.rsi
+    state: banner-red
 
 - type: entity
   id: SpawnPointPDVInfiltrator
@@ -160,18 +160,18 @@
     layers:
     - state: green
 
-# Commented by LuaM: infantry roles and Crocus mode are disabled
-#- type: entity
-#  id: SpawnPointTsfInfantry
-#  parent: SpawnPointJobBase
-#  name: TSF Infantry
-#  components:
-#  - type: SpawnPoint
-#    job_id: TsfInfantry
-#  - type: Sprite
-#    sprite: _NF/Markers/jobs.rsi
-#    layers:
-#    - state: green
+- type: entity
+  id: SpawnPointTsfInfantry
+  parent: SpawnPointJobBase
+  name: TSF Infantry
+  categories: [ HideSpawnMenu ] # LuaM
+  components:
+  - type: SpawnPoint
+    # job_id: TsfInfantry # LuaM: role is disabled
+  - type: Sprite
+    sprite: _NF/Markers/jobs.rsi
+    layers:
+    - state: green
 
 - type: entity
   id: SpawnPointTSFBorg
