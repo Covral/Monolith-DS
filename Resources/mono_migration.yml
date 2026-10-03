@@ -101,6 +101,6 @@ ShipVoucherScorpionART: ShipVoucherPdvT1
 ShipVoucherScorpionMSL: ShipVoucherPdvT1
 ShipVoucherArrow: ShipVoucherTsfT2
 # LuaM: disabled role spawn points are kept (HideSpawnMenu), so they are not migrated away
-# SpawnPointTSFCivilian: null
-# SpawnPointPDVInfantry: null
-# SpawnPointTsfInfantry: null
+# SpawnPointTSFCivilian:
+# SpawnPointPDVInfantry:
+# SpawnPointTsfInfantry:
