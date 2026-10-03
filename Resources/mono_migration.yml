@@ -100,3 +100,6 @@ ShipVoucherVulture: ShipVoucherPdvT2
 ShipVoucherScorpionART: ShipVoucherPdvT1
 ShipVoucherScorpionMSL: ShipVoucherPdvT1
 ShipVoucherArrow: ShipVoucherTsfT2
+SpawnPointTSFCivilian: null
+SpawnPointPDVInfantry: null
+SpawnPointTsfInfantry: null
