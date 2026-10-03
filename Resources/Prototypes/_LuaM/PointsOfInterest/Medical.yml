@@ -1,7 +1,7 @@
 - type: pointOfInterest
   id: Medical
   parent: [BasePOI, BaseRepairablePOI]
-  name: 'Медицинский Центр' # LuaM: 'Medical Dispatch' > 'Медицинский Центр'
+  name: 'Медицинский Центр'
   minimumDistance: 1650
   maximumDistance: 2700
   spawnGroup: Required
@@ -32,9 +32,9 @@
         - type: StationJobs
           availableJobs:
             DirectorOfCare: [ 1, 1 ]
-            MdMedic: [ -1, -1 ] # mono
+            MdMedic: [ -1, -1 ]
           tags:
           - HeadOfPersonnel
           - HeadOfSecurity
         - type: StationDeadDrop
-          maxDeadDrops: 1 # Fewer here, players start here.
+          maxDeadDrops: 1

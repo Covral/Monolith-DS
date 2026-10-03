@@ -5,7 +5,7 @@ meta:
   forkId: ""
   forkVersion: ""
   time: 08/26/2026 13:13:44
-  entityCount: 4383
+  entityCount: 4382
 maps: []
 grids:
 - 1
@@ -28519,14 +28519,6 @@ entities:
 - proto: WeaponPistolKuosame
   entities:
   - uid: 3243
-    components:
-    - type: Transform
-      parent: 3242
-    - type: Physics
-      canCollide: False
-- proto: WeaponRifleAnnie
-  entities:
-  - uid: 3244
     components:
     - type: Transform
       parent: 3242
