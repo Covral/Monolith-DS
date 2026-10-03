@@ -1,0 +1,12 @@
+- type: construction
+  name: самодельная удочка
+  id: FishingRodMakeshift
+  graph: FishingRodMakeshift
+  startNode: start
+  targetNode: makeshiftRod
+  category: construction-category-misc
+  description: Вероятно, словить рыбу с её помощью будет непростой задачей.
+  icon:
+    sprite: _Goobstation/Objects/Specific/Fishing/makeshift_rod.rsi
+    state: icon
+  objectType: Item

@@ -35,6 +35,13 @@
   - type: SpeedModifierContacts
     walkSpeedModifier: 0.5
     sprintSpeedModifier: 0.5
+  # Lua start: fishing
+  - type: FishingSpot
+    fishList: !type:NestedSelector
+      tableId: WaterFishingLootTable
+    fishDefaultTimer: 25.0
+    fishTimerVariety: 15.0
+  # Lua end
   - type: Physics
     bodyType: Static
   - type: Fixtures
@@ -49,6 +56,18 @@
           - ItemMask
         density: 1000
         hard: false
+      # Lua start: fishing
+      fishing:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.4
+        layer:
+        - ItemMask
+        mask:
+        - HighImpassable
+        density: 1000
+        hard: false
+      # Lua end
   - type: FootstepModifier
     footstepSoundCollection:
       collection: FootstepWater
@@ -107,6 +126,13 @@
   - type: SpeedModifierContacts
     walkSpeedModifier: 0.5
     sprintSpeedModifier: 0.5
+  # Lua start: fishing
+  - type: FishingSpot
+    fishList: !type:NestedSelector
+      tableId: WaterFishingLootTable
+    fishDefaultTimer: 25.0
+    fishTimerVariety: 15.0
+  # Lua end
   - type: Physics
     bodyType: Static
   - type: Fixtures
@@ -121,6 +147,18 @@
         - ItemMask
         density: 1000
         hard: false
+      # Lua start: fishing
+      fishing:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.4
+        layer:
+        - ItemMask
+        mask:
+        - HighImpassable
+        density: 1000
+        hard: false
+      # Lua end
   - type: FootstepModifier
     footstepSoundCollection:
       collection: FootstepWater

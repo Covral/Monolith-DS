@@ -37,6 +37,13 @@
   - type: IconSmooth
     key: floor
     base: plasma
+  # Lua start: fishing
+  - type: FishingSpot
+    fishList: !type:NestedSelector
+      tableId: PlasmaFishingLootTable
+    fishDefaultTimer: 25.0
+    fishTimerVariety: 15.0
+  # Lua end
   - type: Physics
     bodyType: Static
   - type: Fixtures
@@ -51,6 +58,18 @@
         - ItemMask
         density: 1000
         hard: false
+      # Lua start: fishing
+      fishing:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.4
+        layer:
+        - ItemMask
+        mask:
+        - HighImpassable
+        density: 1000
+        hard: false
+      # Lua end
   - type: Tag
     tags:
     - HideContextMenu
