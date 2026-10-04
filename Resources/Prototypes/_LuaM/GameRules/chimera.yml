@@ -1,0 +1,23 @@
+- type: entity
+  id: LuaMChimeraSTCShuttleSpawnerSchedulerHalf
+  parent: MonoChimeraSTCShuttleSpawnerScheduler
+  components:
+  - type: BasicStationEventScheduler
+    scheduledGameRules: !type:NestedSelector
+      tableId: ChimeraShipsTableT1
+    minimumTimeUntilFirstEvent: 2700 # 45 minutes
+    minMaxEventTiming:
+      min: 1800 # 30 minutes between events
+      max: 3600 # 60 minutes between events
+
+- type: entity
+  id: LuaMChimeraSTCShuttleSpawnerSchedulerTier2Half
+  parent: MonoChimeraSTCShuttleSpawnerSchedulerTier2
+  components:
+  - type: BasicStationEventScheduler
+    scheduledGameRules: !type:NestedSelector
+      tableId: ChimeraShipsTableT2
+    minimumTimeUntilFirstEvent: 5400 # 1 hour 30 minutes
+    minMaxEventTiming:
+      min: 1800 # 30 minutes between events
+      max: 3600 # 60 minutes between events

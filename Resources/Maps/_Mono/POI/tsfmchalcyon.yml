@@ -5,7 +5,7 @@ meta:
   forkId: ""
   forkVersion: ""
   time: 09/25/2026 17:29:38
-  entityCount: 10506
+  entityCount: 10507
 maps: []
 grids:
 - 1
@@ -53896,6 +53896,13 @@ entities:
     components:
     - type: Transform
       pos: 17.5,3.5
+      parent: 1
+- proto: SpawnPointTsfMarsoc
+  entities:
+  - uid: 10508
+    components:
+    - type: Transform
+      pos: -4.5,19.5
       parent: 1
 - proto: SpeedLoader357_magnumFMJ
   entities:
