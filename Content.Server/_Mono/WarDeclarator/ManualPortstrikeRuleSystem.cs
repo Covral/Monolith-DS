@@ -2,14 +2,17 @@ using System.Linq;
 using Content.Server.Chat.Systems;
 using Content.Server.Communications;
 using Content.Server.GameTicking.Rules;
+using Content.Server.Radio.EntitySystems;
 using Content.Server._Mono.AlertLevel;
 using Content.Shared._Mono.Company;
 using Content.Shared.GameTicking.Components;
+using Content.Shared.Interaction.Events;
+using Content.Shared.Popups;
 using Robust.Shared.Prototypes;
 
 namespace Content.Server._Mono.WarDeclarator;
 
-// LuaM: the handheld war declarator was removed, war is declared from the faction communications consoles
+// LuaM: war can also be declared from the faction communications consoles
 // (see Content.Server/_LuaM/WarDeclaration/CommunicationsConsoleSystem.WarDeclaration.cs)
 public sealed partial class ManualPortstrikeRuleSystem : GameRuleSystem<ManualPortstrikeRuleComponent>
 {
@@ -17,6 +20,32 @@ public sealed partial class ManualPortstrikeRuleSystem : GameRuleSystem<ManualPo
     [Dependency] private ChatSystem _chat = default!; // LuaM
     [Dependency] private CommunicationsConsoleSystem _comms = default!; // LuaM
     [Dependency] private IPrototypeManager _prototypes = default!; // LuaM
+    [Dependency] private SharedPopupSystem _popup = default!;
+    [Dependency] private RadioSystem _radio = default!;
+
+    public override void Initialize()
+    {
+        base.Initialize();
+
+        SubscribeLocalEvent<FactionWarDeclaratorComponent, UseInHandEvent>(OnWarDeclaratorUsed);
+    }
+
+    private void OnWarDeclaratorUsed(Entity<FactionWarDeclaratorComponent> ent, ref UseInHandEvent args)
+    {
+        if (!TryComp<CompanyComponent>(args.User, out var userCompany) || ent.Comp.Faction != userCompany.CompanyName)
+        {
+            _popup.PopupEntity(Loc.GetString(ent.Comp.WarDeclarationFailedMessage), ent, args.User);
+            return;
+        }
+
+        // LuaM: shares the console declaration logic (warm war level, automatic declaration)
+        if (!TryDeclareWar(ent.Comp.Faction, out _))
+            return;
+
+        var channel = _prototypes.Index(ent.Comp.Channel);
+        _radio.SendRadioMessage(ent, Loc.GetString(ent.Comp.WarDeclarationMessage), channel, ent);
+        _comms.UpdateCommsConsoleInterface(); // LuaM
+    }
 
     /// <summary>
     /// Whether an active manual portstrike rule involves the faction, and if it has already declared war.

@@ -104,7 +104,3 @@ ShipVoucherArrow: ShipVoucherTsfT2
 # SpawnPointTSFCivilian:
 # SpawnPointPDVInfantry:
 # SpawnPointTsfInfantry:
-
-# LuaM: war declarator moved into the TSF/PDV communications consoles
-WarDeclaratorTsf: null
-WarDeclaratorPdv: null
