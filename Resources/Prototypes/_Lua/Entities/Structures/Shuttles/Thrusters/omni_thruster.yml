@@ -3,7 +3,6 @@
   parent: [BaseThruster, ConstructibleMachine]
   name: omni thruster
   description: A compact multi-vector thruster that pushes the shuttle in every direction at once.
-  suffix: Magnetic, 150
   placement:
     mode: AlignTileAny
   components:
