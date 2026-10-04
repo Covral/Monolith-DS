@@ -38,13 +38,29 @@ public sealed partial class ManualPortstrikeRuleSystem : GameRuleSystem<ManualPo
             return;
         }
 
-        // LuaM: shares the console declaration logic (warm war level, automatic declaration)
-        if (!TryDeclareWar(ent.Comp.Faction, out _))
-            return;
+        var query = EntityQueryEnumerator<ManualPortstrikeRuleComponent>();
+        while (query.MoveNext(out var uid, out var comp))
+        {
+            if (!comp.SectorStatus.TryGetValue(ent.Comp.Faction, out var warAlreadyDeclared) || warAlreadyDeclared)
+                continue;
 
-        var channel = _prototypes.Index(ent.Comp.Channel);
-        _radio.SendRadioMessage(ent, Loc.GetString(ent.Comp.WarDeclarationMessage), channel, ent);
-        _comms.UpdateCommsConsoleInterface(); // LuaM
+            comp.SectorStatus[ent.Comp.Faction] = true;
+
+            var channel = _prototypes.Index(ent.Comp.Channel);
+            _radio.SendRadioMessage(ent, Loc.GetString(ent.Comp.WarDeclarationMessage), channel, ent);
+
+            var factionYetToDeclare = false;
+            foreach (var factionDeclaredWar in comp.SectorStatus.Values)
+            {
+                if (!factionDeclaredWar)
+                {
+                    factionYetToDeclare = true;
+                    break;
+                }
+            }
+            if (!factionYetToDeclare)
+                _warLevelSystem.SetLevel(comp.WarLevel);
+        }
     }
 
     /// <summary>
