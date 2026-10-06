@@ -48,15 +48,15 @@
   #   action: ActionToggleNightVision
   #   phosphorColor: "#00FF00"
   #   lightingColor: "#FFFFFF32"
-  - type: NightVision # Gen 3 wide-quadtube
-    relayOverlay: false
-    goggleEffect: true
-    viewCircleRadius: 450
-    viewCircleCount: 4
-    viewCircleSpacing: 280
-    action: ActionToggleNightVision
-    phosphorColor: "#00FF00"
-    lightingColor: "#FFFFFF32"
+  # - type: NightVision # Gen 3 wide-quadtube # Commented by LuaM: comes from OrganTajaranEyes
+  #   relayOverlay: false
+  #   goggleEffect: true
+  #   viewCircleRadius: 450
+  #   viewCircleCount: 4
+  #   viewCircleSpacing: 280
+  #   action: ActionToggleNightVision
+  #   phosphorColor: "#00FF00"
+  #   lightingColor: "#FFFFFF32"
   - type: MeleeWeapon
     soundHit:
       collection: Punch
@@ -96,6 +96,7 @@
       Female: FemaleFelinid
       Unsexed: MaleFelinid
   - type: Felinid # real
+  - type: OwOAccent # LuaM
   - type: NoShoesSilentFootsteps
   - type: LanguageKnowledge
     speaks:
