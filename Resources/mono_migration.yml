@@ -104,3 +104,21 @@ ShipVoucherArrow: ShipVoucherTsfT2
 # SpawnPointTSFCivilian:
 # SpawnPointPDVInfantry:
 # SpawnPointTsfInfantry:
+
+# LuaM: only superheavy hardpoints are kept, heavy ones become superheavy
+HardpointDebugSuperlight: null
+HardpointDebugLight: null
+HardpointDebugMedium: null
+HardpointDebugHeavy: HardpointDebugSuperheavy
+HardpointBallisticSuperlight: null
+HardpointBallisticLight: null
+HardpointBallisticMedium: null
+HardpointBallisticHeavy: HardpointBallisticSuperheavy
+HardpointEnergySuperlight: null
+HardpointEnergyLight: null
+HardpointEnergyMedium: null
+HardpointEnergyHeavy: HardpointEnergySuperheavy
+HardpointMissileSuperlight: null
+HardpointMissileLight: null
+HardpointMissileMedium: null
+HardpointMissileHeavy: HardpointMissileSuperheavy

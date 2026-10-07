@@ -5,7 +5,7 @@ meta:
   forkId: ""
   forkVersion: ""
   time: 10/22/2025 02:26:30
-  entityCount: 1160
+  entityCount: 1162
 maps: []
 grids:
 - 1
@@ -3632,6 +3632,20 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -1.5,-3.5
+      parent: 1
+- proto: HardpointBallisticSuperheavy
+  entities:
+  - uid: 1161
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -9.5,-13.5
+      parent: 1
+  - uid: 1162
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 8.5,-13.5
       parent: 1
 - proto: computerBodyScanner
   entities:
