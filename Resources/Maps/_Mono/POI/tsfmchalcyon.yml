@@ -5,7 +5,7 @@ meta:
   forkId: ""
   forkVersion: ""
   time: 09/25/2026 17:29:38
-  entityCount: 10472
+  entityCount: 10468
 maps: []
 grids:
 - 1
@@ -47874,27 +47874,6 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 1.5,-45.5
       parent: 1
-- proto: IndustrialFurnaceEconomyCompact
-  entities:
-  - uid: 7155
-    components:
-    - type: Transform
-      pos: -22.5,-0.5
-      parent: 1
-- proto: IndustrialPressEconomyElectronics
-  entities:
-  - uid: 7156
-    components:
-    - type: Transform
-      pos: -20.5,-5.5
-      parent: 1
-- proto: IndustrialPressEconomyPlates
-  entities:
-  - uid: 7157
-    components:
-    - type: Transform
-      pos: -22.5,-5.5
-      parent: 1
 - proto: JanitorialTrolley
   entities:
   - uid: 7158
@@ -51136,13 +51115,6 @@ entities:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -10.5,-29.5
-      parent: 1
-- proto: PrecisionAssemblerEconomyCompact
-  entities:
-  - uid: 7657
-    components:
-    - type: Transform
-      pos: -20.5,-0.5
       parent: 1
 - proto: PrefilledSyringe
   entities:

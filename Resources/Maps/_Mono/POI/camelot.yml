@@ -5,7 +5,7 @@ meta:
   forkId: ""
   forkVersion: ""
   time: 09/03/2026 20:13:28
-  entityCount: 11875
+  entityCount: 11871
 maps: []
 grids:
 - 1
@@ -57785,30 +57785,6 @@ entities:
     - type: Transform
       pos: 28.033022,49.17204
       parent: 1
-- proto: IndustrialFurnaceEconomy
-  entities:
-  - uid: 8035
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -23.5,43.5
-      parent: 1
-- proto: IndustrialPressEconomyElectronics
-  entities:
-  - uid: 8036
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -19.5,45.5
-      parent: 1
-- proto: IndustrialPressEconomyPlates
-  entities:
-  - uid: 8037
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -20.5,45.5
-      parent: 1
 - proto: InflatableDoor
   entities:
   - uid: 8038
@@ -61662,13 +61638,6 @@ entities:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 2.5,11.5
-      parent: 1
-- proto: PrecisionAssemblerEconomy
-  entities:
-  - uid: 8645
-    components:
-    - type: Transform
-      pos: -24.5,46.5
       parent: 1
 - proto: PressurePlate
   entities:
