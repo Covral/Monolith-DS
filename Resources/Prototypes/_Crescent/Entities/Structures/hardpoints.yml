@@ -141,23 +141,24 @@
 #     repairTime: 1
 #     repairCost: 0
 
-- type: entity
-  id: HardpointDebugSuperheavy
-  parent: BaseHardpoint
-  name: debug hardpoint superheavy universal
-  suffix: DO NOT MAP
-  components:
-  - type: Hardpoint
-    class: Universal
-    size: Superheavy
-  # - type: ApcPowerReceiver # Commented by LuaM: hardpoints draw no power
-  #   powerLoad: 10000
-  - type: Sprite
-    sprite: _Crescent/Structures/hardpoints.rsi
-    state: medium
-  - type: ShipRepairable
-    repairTime: 1
-    repairCost: 0
+# Commented by LuaM: replaced with HardpointUniversalSuperheavy
+# - type: entity
+#   id: HardpointDebugSuperheavy
+#   parent: BaseHardpoint
+#   name: debug hardpoint superheavy universal
+#   suffix: DO NOT MAP
+#   components:
+#   - type: Hardpoint
+#     class: Universal
+#     size: Superheavy
+#   # - type: ApcPowerReceiver # Commented by LuaM: hardpoints draw no power
+#   #   powerLoad: 10000
+#   - type: Sprite
+#     sprite: _Crescent/Structures/hardpoints.rsi
+#     state: medium
+#   - type: ShipRepairable
+#     repairTime: 1
+#     repairCost: 0
 
 # Ballistic
 
@@ -233,22 +234,23 @@
 #     repairTime: 80
 #     repairCost: 25
 
-- type: entity
-  id: HardpointBallisticSuperheavy
-  parent: BaseHardpoint
-  name: superheavy ballistic hardpoint
-  components:
-  - type: Hardpoint
-    class: Ballistic
-    size: Superheavy
-  # - type: ApcPowerReceiver # Commented by LuaM: hardpoints draw no power
-  #   powerLoad: 10000
-  - type: Sprite
-    sprite: _Crescent/Structures/hardpoints.rsi
-    state: medium
-  - type: ShipRepairable
-    repairTime: 100
-    repairCost: 30
+# Commented by LuaM: replaced with HardpointUniversalSuperheavy
+# - type: entity
+#   id: HardpointBallisticSuperheavy
+#   parent: BaseHardpoint
+#   name: superheavy ballistic hardpoint
+#   components:
+#   - type: Hardpoint
+#     class: Ballistic
+#     size: Superheavy
+#   # - type: ApcPowerReceiver # Commented by LuaM: hardpoints draw no power
+#   #   powerLoad: 10000
+#   - type: Sprite
+#     sprite: _Crescent/Structures/hardpoints.rsi
+#     state: medium
+#   - type: ShipRepairable
+#     repairTime: 100
+#     repairCost: 30
 
 # Energy
 
@@ -324,22 +326,23 @@
 #     repairTime: 80
 #     repairCost: 25
 
-- type: entity
-  id: HardpointEnergySuperheavy
-  parent: BaseHardpoint
-  name: superheavy energy hardpoint
-  components:
-  - type: Hardpoint
-    class: Energy
-    size: Superheavy
-  # - type: ApcPowerReceiver # Commented by LuaM: hardpoints draw no power
-  #   powerLoad: 10000
-  - type: Sprite
-    sprite: _Crescent/Structures/hardpoints.rsi
-    state: medium
-  - type: ShipRepairable
-    repairTime: 100
-    repairCost: 30
+# Commented by LuaM: replaced with HardpointUniversalSuperheavy
+# - type: entity
+#   id: HardpointEnergySuperheavy
+#   parent: BaseHardpoint
+#   name: superheavy energy hardpoint
+#   components:
+#   - type: Hardpoint
+#     class: Energy
+#     size: Superheavy
+#   # - type: ApcPowerReceiver # Commented by LuaM: hardpoints draw no power
+#   #   powerLoad: 10000
+#   - type: Sprite
+#     sprite: _Crescent/Structures/hardpoints.rsi
+#     state: medium
+#   - type: ShipRepairable
+#     repairTime: 100
+#     repairCost: 30
 
 # Missile
 
@@ -415,19 +418,20 @@
 #     repairTime: 80
 #     repairCost: 25
 
-- type: entity
-  id: HardpointMissileSuperheavy
-  parent: BaseHardpoint
-  name: superheavy missile hardpoint
-  components:
-  - type: Hardpoint
-    class: Missile
-    size: Superheavy
-  # - type: ApcPowerReceiver # Commented by LuaM: hardpoints draw no power
-  #   powerLoad: 10000
-  - type: Sprite
-    sprite: _Crescent/Structures/hardpoints.rsi
-    state: medium
-  - type: ShipRepairable
-    repairTime: 100
-    repairCost: 30
+# Commented by LuaM: replaced with HardpointUniversalSuperheavy
+# - type: entity
+#   id: HardpointMissileSuperheavy
+#   parent: BaseHardpoint
+#   name: superheavy missile hardpoint
+#   components:
+#   - type: Hardpoint
+#     class: Missile
+#     size: Superheavy
+#   # - type: ApcPowerReceiver # Commented by LuaM: hardpoints draw no power
+#   #   powerLoad: 10000
+#   - type: Sprite
+#     sprite: _Crescent/Structures/hardpoints.rsi
+#     state: medium
+#   - type: ShipRepairable
+#     repairTime: 100
+#     repairCost: 30

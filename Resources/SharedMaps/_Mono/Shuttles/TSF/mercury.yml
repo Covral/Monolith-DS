@@ -5555,7 +5555,7 @@ entities:
     - type: Transform
       pos: -1.5,-11.5
       parent: 1
-- proto: HardpointMissileSuperheavy
+- proto: HardpointUniversalSuperheavy
   entities:
   - uid: 1328
     components:

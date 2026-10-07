@@ -29018,6 +29018,112 @@ entities:
     - type: Transform
       pos: -4.5,51.5
       parent: 1
+- proto: HardpointUniversalSuperheavy
+  entities:
+  - uid: 5948
+    components:
+    - type: Transform
+      pos: -6.5,-0.5
+      parent: 1
+  - uid: 5949
+    components:
+    - type: Transform
+      pos: 7.5,-0.5
+      parent: 1
+  - uid: 5950
+    components:
+    - type: Transform
+      pos: -25.5,5.5
+      parent: 1
+  - uid: 5951
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -22.5,47.5
+      parent: 1
+  - uid: 5952
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -15.5,79.5
+      parent: 1
+  - uid: 5953
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -15.5,77.5
+      parent: 1
+  - uid: 5954
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 16.5,79.5
+      parent: 1
+  - uid: 5955
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 16.5,77.5
+      parent: 1
+  - uid: 5956
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 23.5,47.5
+      parent: 1
+  - uid: 5957
+    components:
+    - type: Transform
+      pos: 26.5,5.5
+      parent: 1
+  - uid: 5996
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -24.5,24.5
+      parent: 1
+  - uid: 5997
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -7.5,93.5
+      parent: 1
+  - uid: 5998
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -8.5,90.5
+      parent: 1
+  - uid: 5999
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -24.5,36.5
+      parent: 1
+  - uid: 6000
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 8.5,93.5
+      parent: 1
+  - uid: 6001
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 9.5,90.5
+      parent: 1
+  - uid: 6002
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 25.5,36.5
+      parent: 1
+  - uid: 6003
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 25.5,24.5
+      parent: 1
 - proto: filingCabinetDrawerRandom
   entities:
   - uid: 4340
@@ -41664,112 +41770,6 @@ entities:
       startingCharge: 0
     - type: ApcPowerReceiver
       powerLoad: 50
-- proto: HardpointBallisticSuperheavy
-  entities:
-  - uid: 5948
-    components:
-    - type: Transform
-      pos: -6.5,-0.5
-      parent: 1
-  - uid: 5949
-    components:
-    - type: Transform
-      pos: 7.5,-0.5
-      parent: 1
-  - uid: 5950
-    components:
-    - type: Transform
-      pos: -25.5,5.5
-      parent: 1
-  - uid: 5951
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -22.5,47.5
-      parent: 1
-  - uid: 5952
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -15.5,79.5
-      parent: 1
-  - uid: 5953
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -15.5,77.5
-      parent: 1
-  - uid: 5954
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 16.5,79.5
-      parent: 1
-  - uid: 5955
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 16.5,77.5
-      parent: 1
-  - uid: 5956
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 23.5,47.5
-      parent: 1
-  - uid: 5957
-    components:
-    - type: Transform
-      pos: 26.5,5.5
-      parent: 1
-  - uid: 5996
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -24.5,24.5
-      parent: 1
-  - uid: 5997
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -7.5,93.5
-      parent: 1
-  - uid: 5998
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -8.5,90.5
-      parent: 1
-  - uid: 5999
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -24.5,36.5
-      parent: 1
-  - uid: 6000
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 8.5,93.5
-      parent: 1
-  - uid: 6001
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 9.5,90.5
-      parent: 1
-  - uid: 6002
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 25.5,36.5
-      parent: 1
-  - uid: 6003
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 25.5,24.5
-      parent: 1
 - proto: HospitalCurtainsOpen
   entities:
   - uid: 6004

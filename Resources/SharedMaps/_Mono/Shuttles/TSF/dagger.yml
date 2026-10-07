@@ -2669,6 +2669,14 @@ entities:
     - type: Transform
       pos: -2.5,-8.5
       parent: 1
+- proto: HardpointUniversalSuperheavy
+  entities:
+  - uid: 497
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -5.5,-17.5
+      parent: 1
 - proto: filingCabinetDrawerRandom
   entities:
   - uid: 369
@@ -3724,14 +3732,6 @@ entities:
     components:
     - type: Transform
       pos: -0.5,-14.5
-      parent: 1
-- proto: HardpointBallisticSuperheavy
-  entities:
-  - uid: 497
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -5.5,-17.5
       parent: 1
 - proto: KitchenMicrowave
   entities:

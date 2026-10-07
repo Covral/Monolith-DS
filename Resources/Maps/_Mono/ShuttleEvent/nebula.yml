@@ -1575,7 +1575,7 @@ entities:
     - type: Transform
       pos: -1.5,-9.5
       parent: 1
-- proto: HardpointEnergySuperheavy
+- proto: HardpointUniversalSuperheavy
   entities:
   - uid: 489
     components:

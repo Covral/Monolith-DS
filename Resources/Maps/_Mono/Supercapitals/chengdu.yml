@@ -18502,7 +18502,7 @@ entities:
     - type: Transform
       pos: 3.4667459,-34.472485
       parent: 1
-- proto: HardpointBallisticSuperheavy
+- proto: HardpointUniversalSuperheavy
   entities:
   - uid: 4510
     components:
@@ -18632,8 +18632,6 @@ entities:
       parent: 1
     - type: Physics
       canCollide: False
-- proto: HardpointMissileSuperheavy
-  entities:
   - uid: 4530
     components:
     - type: Transform

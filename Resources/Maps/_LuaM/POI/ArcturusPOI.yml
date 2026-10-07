@@ -17579,7 +17579,7 @@ entities:
     - type: Transform
       pos: 7.5,-39.5
       parent: 1
-- proto: HardpointEnergySuperheavy
+- proto: HardpointUniversalSuperheavy
   entities:
   - uid: 4384
     components:
@@ -17611,8 +17611,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: 7.5,-10.5
       parent: 1
-- proto: HardpointMissileSuperheavy
-  entities:
   - uid: 4389
     components:
     - type: Transform

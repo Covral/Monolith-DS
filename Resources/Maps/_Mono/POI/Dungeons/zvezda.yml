@@ -29652,6 +29652,53 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 15.5,5.5
       parent: 1
+- proto: HardpointUniversalSuperheavy
+  entities:
+  - uid: 6963
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 43.5,40.5
+      parent: 1
+  - uid: 6964
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -27.5,27.5
+      parent: 1
+  - uid: 6965
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -36.5,14.5
+      parent: 1
+  - uid: 6966
+    components:
+    - type: Transform
+      pos: -35.5,-11.5
+      parent: 1
+  - uid: 6967
+    components:
+    - type: Transform
+      pos: 12.5,-32.5
+      parent: 1
+  - uid: 6968
+    components:
+    - type: Transform
+      pos: 53.5,-26.5
+      parent: 1
+  - uid: 6969
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 65.5,22.5
+      parent: 1
+  - uid: 6970
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 1.5,38.5
+      parent: 1
 - proto: filingCabinetDrawerRandom
   entities:
   - uid: 4730
@@ -46137,53 +46184,6 @@ entities:
       startingCharge: 0
     - type: ApcPowerReceiver
       powerLoad: 50
-- proto: HardpointBallisticSuperheavy
-  entities:
-  - uid: 6963
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 43.5,40.5
-      parent: 1
-  - uid: 6964
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -27.5,27.5
-      parent: 1
-  - uid: 6965
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -36.5,14.5
-      parent: 1
-  - uid: 6966
-    components:
-    - type: Transform
-      pos: -35.5,-11.5
-      parent: 1
-  - uid: 6967
-    components:
-    - type: Transform
-      pos: 12.5,-32.5
-      parent: 1
-  - uid: 6968
-    components:
-    - type: Transform
-      pos: 53.5,-26.5
-      parent: 1
-  - uid: 6969
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 65.5,22.5
-      parent: 1
-  - uid: 6970
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 1.5,38.5
-      parent: 1
 - proto: HighSecCentralCommandLocked
   entities:
   - uid: 6971

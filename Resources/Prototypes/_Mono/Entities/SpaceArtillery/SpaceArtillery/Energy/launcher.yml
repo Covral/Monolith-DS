@@ -403,7 +403,7 @@
   id: WeaponTurretDymere
   name: ADEX-9 DYMERE Turbolaser
   parent:
-  - BallisticArtillery
+  - BallisticArtilleryUnanchorable # LuaM: BallisticArtillery > BallisticArtilleryUnanchorable
   - BallisticArtilleryTier5HP
   suffix: Station, T5
   description: Aetherion Dynamics' most iconic supercapital battery. Fires enormous ionized gas projectiles that melt through the toughest ship armor. Can be remotely activated or linked to a GCS.

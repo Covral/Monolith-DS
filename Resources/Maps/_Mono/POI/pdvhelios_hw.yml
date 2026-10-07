@@ -27692,8 +27692,90 @@ entities:
     - type: Transform
       pos: -4.5,51.5
       parent: 1
-- proto: HardpointMissileSuperheavy
+- proto: HardpointUniversalSuperheavy
   entities:
+  - uid: 8461
+    components:
+    - type: Transform
+      pos: -25.5,5.5
+      parent: 1
+  - uid: 8471
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -24.5,24.5
+      parent: 1
+  - uid: 8472
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -22.5,47.5
+      parent: 1
+  - uid: 8473
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -24.5,36.5
+      parent: 1
+  - uid: 8479
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -15.5,79.5
+      parent: 1
+  - uid: 8480
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 8.5,93.5
+      parent: 1
+  - uid: 8481
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -8.5,90.5
+      parent: 1
+  - uid: 8482
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -7.5,93.5
+      parent: 1
+  - uid: 8483
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 9.5,90.5
+      parent: 1
+  - uid: 8486
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 16.5,79.5
+      parent: 1
+  - uid: 8492
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 23.5,47.5
+      parent: 1
+  - uid: 8493
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 25.5,36.5
+      parent: 1
+  - uid: 8494
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 25.5,24.5
+      parent: 1
+  - uid: 8504
+    components:
+    - type: Transform
+      pos: 26.5,5.5
+      parent: 1
   - uid: 8506
     components:
     - type: Transform
@@ -41036,90 +41118,6 @@ entities:
       startingCharge: 0
     - type: ApcPowerReceiver
       powerLoad: 50
-- proto: HardpointBallisticSuperheavy
-  entities:
-  - uid: 8461
-    components:
-    - type: Transform
-      pos: -25.5,5.5
-      parent: 1
-  - uid: 8471
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -24.5,24.5
-      parent: 1
-  - uid: 8472
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -22.5,47.5
-      parent: 1
-  - uid: 8473
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -24.5,36.5
-      parent: 1
-  - uid: 8479
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -15.5,79.5
-      parent: 1
-  - uid: 8480
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 8.5,93.5
-      parent: 1
-  - uid: 8481
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -8.5,90.5
-      parent: 1
-  - uid: 8482
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -7.5,93.5
-      parent: 1
-  - uid: 8483
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 9.5,90.5
-      parent: 1
-  - uid: 8486
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 16.5,79.5
-      parent: 1
-  - uid: 8492
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 23.5,47.5
-      parent: 1
-  - uid: 8493
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 25.5,36.5
-      parent: 1
-  - uid: 8494
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 25.5,24.5
-      parent: 1
-  - uid: 8504
-    components:
-    - type: Transform
-      pos: 26.5,5.5
-      parent: 1
 - proto: HospitalCurtainsOpen
   entities:
   - uid: 5932

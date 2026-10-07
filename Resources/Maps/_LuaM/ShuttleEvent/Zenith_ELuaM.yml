@@ -2556,7 +2556,7 @@ entities:
       parent: 1
     - type: Thruster
       baseThrust: 4000
-- proto: HardpointEnergySuperheavy
+- proto: HardpointUniversalSuperheavy
   entities:
   - uid: 664
     components:

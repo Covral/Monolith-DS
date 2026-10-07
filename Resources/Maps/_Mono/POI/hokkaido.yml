@@ -18800,6 +18800,78 @@ entities:
     - type: Transform
       pos: -5.5,1.5
       parent: 1
+- proto: HardpointUniversalSuperheavy
+  entities:
+  - uid: 4045
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 33.5,27.5
+      parent: 1
+  - uid: 4046
+    components:
+    - type: Transform
+      pos: -4.5,-5.5
+      parent: 1
+  - uid: 4047
+    components:
+    - type: Transform
+      pos: -6.5,-5.5
+      parent: 1
+  - uid: 4048
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 11.5,12.5
+      parent: 1
+  - uid: 4049
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 47.5,8.5
+      parent: 1
+  - uid: 4050
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 32.5,-27.5
+      parent: 1
+  - uid: 4051
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 32.5,-29.5
+      parent: 1
+  - uid: 4052
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -40.5,-17.5
+      parent: 1
+  - uid: 4053
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -45.5,5.5
+      parent: 1
+  - uid: 4054
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -45.5,8.5
+      parent: 1
+  - uid: 4055
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -32.5,29.5
+      parent: 1
+  - uid: 4056
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -30.5,29.5
+      parent: 1
 - proto: filingCabinetDrawerRandom
   entities:
   - uid: 2758
@@ -29668,78 +29740,6 @@ entities:
           showEnts: False
           occludes: True
           ent: null
-- proto: HardpointBallisticSuperheavy
-  entities:
-  - uid: 4045
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 33.5,27.5
-      parent: 1
-  - uid: 4046
-    components:
-    - type: Transform
-      pos: -4.5,-5.5
-      parent: 1
-  - uid: 4047
-    components:
-    - type: Transform
-      pos: -6.5,-5.5
-      parent: 1
-  - uid: 4048
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 11.5,12.5
-      parent: 1
-  - uid: 4049
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 47.5,8.5
-      parent: 1
-  - uid: 4050
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 32.5,-27.5
-      parent: 1
-  - uid: 4051
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 32.5,-29.5
-      parent: 1
-  - uid: 4052
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -40.5,-17.5
-      parent: 1
-  - uid: 4053
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -45.5,5.5
-      parent: 1
-  - uid: 4054
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -45.5,8.5
-      parent: 1
-  - uid: 4055
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -32.5,29.5
-      parent: 1
-  - uid: 4056
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -30.5,29.5
-      parent: 1
 - proto: HospitalCurtainsOpen
   entities:
   - uid: 4057

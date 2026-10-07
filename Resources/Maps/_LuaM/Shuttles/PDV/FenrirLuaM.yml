@@ -5798,7 +5798,7 @@ entities:
     - type: Transform
       pos: 5.5,-0.5
       parent: 1
-- proto: HardpointBallisticSuperheavy
+- proto: HardpointUniversalSuperheavy
   entities:
   - uid: 1418
     components:

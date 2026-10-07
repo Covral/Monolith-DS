@@ -19729,7 +19729,7 @@ entities:
     - type: Transform
       pos: -4.5,25.5
       parent: 1
-- proto: HardpointBallisticSuperheavy
+- proto: HardpointUniversalSuperheavy
   entities:
   - uid: 6199
     components:

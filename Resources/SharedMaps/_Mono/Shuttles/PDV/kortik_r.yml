@@ -6951,7 +6951,7 @@ entities:
     - type: Transform
       pos: -7.5,-16.5
       parent: 1
-- proto: HardpointBallisticSuperheavy
+- proto: HardpointUniversalSuperheavy
   entities:
   - uid: 1004
     components:

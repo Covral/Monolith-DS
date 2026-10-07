@@ -6658,7 +6658,7 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -5.5,-4.5
       parent: 1
-- proto: HardpointMissileSuperheavy
+- proto: HardpointUniversalSuperheavy
   entities:
   - uid: 1551
     components:
