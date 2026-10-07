@@ -69,9 +69,9 @@
   suffix: Hand-Sized
   components:
   - type: XenoArtifact
-    nodeCount:
-      min: 9
-      max: 13
+    nodeCount: # LuaM: 9-13 > 12-17
+      min: 12
+      max: 17
 
 - type: entity
   id: ArtifactFragment

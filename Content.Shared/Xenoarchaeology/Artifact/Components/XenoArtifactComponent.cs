@@ -57,7 +57,7 @@ public sealed partial class XenoArtifactComponent : Component
     /// to determine the monetary value of the artifact.
     /// </summary>
     [DataField]
-    public float PriceMultiplier = 0.50f; // Lua: 0.40f<0.50f
+    public float PriceMultiplier = 0.752f; // Lua: 0.40f<0.50f // LuaM: 0.50f > 0.752f, with the +33% points the sell price is doubled
 
     #region Unlocking
     /// <summary>

@@ -22,7 +22,7 @@
     TriggerPrying: 0.5
     TriggerScrewing: 0.5
     TriggerPulsing: 0.5
-    TriggerTimer: 0.25
+    TriggerTimer: 0.001 # LuaM: 0.25 > 0.001, self-activation is almost never rolled
     TriggerBlood: 1
     TriggerThrow: 1
     TriggerDeath: 1
@@ -229,6 +229,8 @@
     possibleDelayInSeconds:
       min: 80
       max: 120
+  - type: XenoArtifactNodePointMultiplier # LuaM: the rarest trigger is worth the most points
+    multiplier: 3
 
 - type: xenoArchTrigger
   id: TriggerBlood
