@@ -123,7 +123,8 @@
 # AK820 120mm
 
 - type: entity
-  id: WeaponTurretAk820
+  id: WeaponTurretAk820Base # LuaM: WeaponTurretAk820 > WeaponTurretAk820Base, shared by AK820 and AK800
+  abstract: true # LuaM
   name: AK820 100mm autocannon
   parent:
   - BallisticArtilleryCartridge
@@ -200,15 +201,22 @@
   - type: ShipRepairable
     repairTime: 30
     repairCost: 150
+
+# LuaM-start: AK820 needs a superheavy hardpoint, AK800 does not
+- type: entity
+  id: WeaponTurretAk820
+  parent: WeaponTurretAk820Base
+  components:
   - type: HardpointAnchorableOnly
     class: Ballistic
-    size: Superheavy # LuaM: Heavy > Superheavy
+    size: Superheavy
+# LuaM-end
 
 - type: entity
   id: WeaponTurretAk800
   name: AK800 100mm autocannon
   parent:
-  - WeaponTurretAk820
+  - WeaponTurretAk820Base # LuaM: WeaponTurretAk820 > WeaponTurretAk820Base, no hardpoint needed
   suffix: Large, T4
   description: A single-barreled variant of the AK820 autocannon, with less GCS strain but lower firerate. Large hard hitting naval gun for steady damage. Fires APHEDS rounds, allowing for enhanced penetration, but not as much explosive power as full-sized APHE rounds. Feeds from an 96 round internal magazine.
   components:

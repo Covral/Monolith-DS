@@ -5,7 +5,7 @@ meta:
   forkId: ""
   forkVersion: ""
   time: 09/21/2026 19:56:34
-  entityCount: 715
+  entityCount: 716
 maps: []
 grids:
 - 1
@@ -3603,6 +3603,13 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -2.5,5.5
+      parent: 1
+- proto: HardpointUniversalSuperheavy
+  entities:
+  - uid: 724
+    components:
+    - type: Transform
+      pos: 2.5,26.5
       parent: 1
 - proto: KitchenAssembler
   entities:

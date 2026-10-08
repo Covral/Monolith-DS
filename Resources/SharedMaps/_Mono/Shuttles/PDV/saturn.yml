@@ -5,7 +5,7 @@ meta:
   forkId: ""
   forkVersion: ""
   time: 09/20/2026 11:38:10
-  entityCount: 4081
+  entityCount: 4085
 maps: []
 grids:
 - 1
@@ -12490,6 +12490,30 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -14.5,14.5
+      parent: 1
+  - uid: 4102
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 19.5,11.5
+      parent: 1
+  - uid: 4103
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -17.5,11.5
+      parent: 1
+  - uid: 4104
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 19.5,10.5
+      parent: 1
+  - uid: 4105
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -17.5,10.5
       parent: 1
 - proto: filingCabinetDrawerRandom
   entities:

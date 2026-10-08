@@ -5,7 +5,7 @@ meta:
   forkId: ""
   forkVersion: ""
   time: 08/25/2026 22:27:38
-  entityCount: 10089
+  entityCount: 10101
 maps: []
 grids:
 - 1
@@ -45965,6 +45965,72 @@ entities:
       parent: 1
     - type: Physics
       canCollide: False
+  - uid: 10132
+    components:
+    - type: Transform
+      pos: -6.5,-53.5
+      parent: 1
+  - uid: 10133
+    components:
+    - type: Transform
+      pos: 9.5,-53.5
+      parent: 1
+  - uid: 10134
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 14.5,37.5
+      parent: 1
+  - uid: 10135
+    components:
+    - type: Transform
+      pos: 6.5,-48.5
+      parent: 1
+  - uid: 10136
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 14.5,40.5
+      parent: 1
+  - uid: 10137
+    components:
+    - type: Transform
+      pos: 25.5,-26.5
+      parent: 1
+  - uid: 10138
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -19.5,-2.5
+      parent: 1
+  - uid: 10139
+    components:
+    - type: Transform
+      pos: 23.5,-28.5
+      parent: 1
+  - uid: 10140
+    components:
+    - type: Transform
+      pos: 44.5,-3.5
+      parent: 1
+  - uid: 10141
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 44.5,2.5
+      parent: 1
+  - uid: 10142
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -10.5,37.5
+      parent: 1
+  - uid: 10143
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -19.5,-4.5
+      parent: 1
 - proto: HarmonicaInstrument
   entities:
   - uid: 6901

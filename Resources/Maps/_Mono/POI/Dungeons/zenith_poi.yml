@@ -5,7 +5,7 @@ meta:
   forkId: ""
   forkVersion: ""
   time: 08/25/2026 22:04:21
-  entityCount: 644
+  entityCount: 646
 maps: []
 grids:
 - 1
@@ -2253,6 +2253,18 @@ entities:
       parent: 1
     - type: Physics
       canCollide: False
+  - uid: 651
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -9.5,-2.5
+      parent: 1
+  - uid: 652
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 8.5,-2.5
+      parent: 1
 - proto: MachineFTLDrive25S
   entities:
   - uid: 383

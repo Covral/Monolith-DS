@@ -5,7 +5,7 @@ meta:
   forkId: ""
   forkVersion: ""
   time: 08/25/2026 21:07:57
-  entityCount: 4517
+  entityCount: 4521
 maps: []
 grids:
 - 1
@@ -18664,6 +18664,30 @@ entities:
       parent: 1
     - type: Physics
       canCollide: False
+  - uid: 4534
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -4.5,-2.5
+      parent: 1
+  - uid: 4535
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 7.5,-77.5
+      parent: 1
+  - uid: 4536
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -6.5,-77.5
+      parent: 1
+  - uid: 4537
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 5.5,-2.5
+      parent: 1
 - proto: HospitalCurtainsOpen
   entities:
   - uid: 2753

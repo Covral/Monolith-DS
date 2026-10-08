@@ -5,7 +5,7 @@ meta:
   forkId: ""
   forkVersion: ""
   time: 06/24/2026 09:15:40
-  entityCount: 1034
+  entityCount: 1036
 maps: []
 grids:
 - 1
@@ -4183,6 +4183,16 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -5.5,10.5
+      parent: 1
+  - uid: 1035
+    components:
+    - type: Transform
+      pos: -1.5,21.5
+      parent: 1
+  - uid: 1036
+    components:
+    - type: Transform
+      pos: 2.5,21.5
       parent: 1
 - proto: LockerMedicineFilled
   entities:

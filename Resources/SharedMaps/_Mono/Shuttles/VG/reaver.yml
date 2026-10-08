@@ -5,7 +5,7 @@ meta:
   forkId: ""
   forkVersion: ""
   time: 08/24/2026 22:48:52
-  entityCount: 329
+  entityCount: 331
 maps: []
 grids:
 - 1
@@ -1421,6 +1421,20 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -2.5,-0.5
+      parent: 1
+- proto: HardpointUniversalSuperheavy
+  entities:
+  - uid: 333
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -1.5,3.5
+      parent: 1
+  - uid: 334
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 2.5,3.5
       parent: 1
 - proto: LockableButtonUSSP
   entities:
