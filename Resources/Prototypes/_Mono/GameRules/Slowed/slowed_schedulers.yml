@@ -42,6 +42,6 @@
     scheduledGameRules: !type:NestedSelector
       tableId: ChimeraShipsTableT1
     minimumTimeUntilFirstEvent: 6300 # 1 hour 45 minutes # LuaM: 10800 > 6300
-    minMaxEventTiming:
-      min: 5400 # 90 minutes between events
-      max: 5400 # 90 minutes between events
+    minMaxEventTiming: # LuaM: 3 chimeras per shift: 1:45, 4:15 and 6:45
+      min: 9000 # 2.5 hours between events # LuaM: 5400 > 9000
+      max: 9000 # 2.5 hours between events # LuaM: 5400 > 9000
