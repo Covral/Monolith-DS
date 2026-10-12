@@ -56,14 +56,34 @@ public sealed class ResearchServerMagnetSystem : EntitySystem
         if (!args.CanAccess || !args.CanInteract || !HasComp<HandsComponent>(args.User))
             return;
 
-        var comp = ent.Comp;
+        var user = args.User;
         args.Verbs.Add(new AlternativeVerb
         {
-            Act = () => comp.MagnetEnabled = !comp.MagnetEnabled,
+            Act = () => SetMagnet(ent, !ent.Comp.MagnetEnabled, user),
             Icon = new SpriteSpecifier.Texture(new("/Textures/Interface/VerbIcons/Spare/poweronoff.svg.192dpi.png")),
             Text = Loc.GetString("magnet-pickup-component-toggle-verb"),
             Priority = 3,
         });
+    }
+
+    private void SetMagnet(Entity<ResearchServerMagnetComponent> ent, bool enabled, EntityUid? user = null)
+    {
+        ent.Comp.MagnetEnabled = enabled;
+
+        if (enabled)
+        {
+            ent.Comp.DisableAt = _timing.CurTime + ent.Comp.ActiveDuration;
+            ent.Comp.NextScan = _timing.CurTime;
+        }
+
+        var message = enabled
+            ? Loc.GetString("research-server-magnet-enabled", ("seconds", (int) ent.Comp.ActiveDuration.TotalSeconds))
+            : Loc.GetString("research-server-magnet-disabled");
+
+        if (user != null)
+            _popup.PopupEntity(message, ent, user.Value);
+        else
+            _popup.PopupEntity(message, ent);
     }
 
     public override void Update(float frameTime)
@@ -81,6 +101,12 @@ public sealed class ResearchServerMagnetSystem : EntitySystem
 
             if (!magnet.MagnetEnabled)
                 continue;
+
+            if (curTime >= magnet.DisableAt)
+            {
+                SetMagnet((uid, magnet), false);
+                continue;
+            }
 
             var count = 0;
             foreach (var near in _lookup.GetEntitiesInRange(uid, magnet.Range, LookupFlags.Dynamic | LookupFlags.Sundries))
