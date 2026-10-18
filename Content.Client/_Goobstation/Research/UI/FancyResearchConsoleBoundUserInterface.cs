@@ -1,4 +1,5 @@
 using System.Linq;
+using Content.Shared._LuaM.Research; // LuaM
 using Content.Shared.Research.Components;
 using Content.Shared.Research.Prototypes;
 using JetBrains.Annotations;
@@ -35,6 +36,17 @@ public sealed class FancyResearchConsoleBoundUserInterface : BoundUserInterface
         _consoleMenu.OnServerButtonPressed += () =>
         {
             SendMessage(new ConsoleServerSelectionMessage());
+        };
+
+        // LuaM: research a whole discipline or everything
+        _consoleMenu.OnUnlockAllPressed += discipline =>
+        {
+            SendMessage(new ConsoleUnlockAllTechnologiesMessage(discipline));
+        };
+
+        _consoleMenu.OnUnlockWithPrerequisitesPressed += technology =>
+        {
+            SendMessage(new ConsoleUnlockWithPrerequisitesMessage(technology));
         };
     }
 
