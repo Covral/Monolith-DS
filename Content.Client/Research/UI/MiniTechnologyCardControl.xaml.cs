@@ -15,10 +15,12 @@ public sealed partial class MiniTechnologyCardControl : Control
     /// The technology that this control represents
     public readonly TechnologyPrototype Technology;
 
+    // LuaM-start:
     /// <summary>
-    /// LuaM: raised when the card is clicked, see <see cref="MakeSelectable"/>.
+    /// Raised when the card is clicked, see <see cref="MakeSelectable"/>.
     /// </summary>
     public event Action<TechnologyPrototype>? OnSelected;
+    // LuaM-end.
 
     public MiniTechnologyCardControl(TechnologyPrototype technology, IPrototypeManager prototypeManager, SpriteSystem spriteSys, FormattedMessage description)
     {
@@ -70,5 +72,5 @@ public sealed partial class MiniTechnologyCardControl : Control
         Main.Disabled = false;
         Main.OnPressed += _ => OnSelected?.Invoke(Technology);
     }
-    // End LuaM
+    // LuaM-end.
 }

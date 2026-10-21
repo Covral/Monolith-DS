@@ -114,18 +114,14 @@ public sealed partial class FancyTechnologyInfoPanel : Control
         _sawmill.Debug($"Created tech panel: {proto.ID}, availability: {availability}, button disabled: {ResearchButton.Disabled}");
     }
 
-    // LuaM
-    /// <summary>
-    /// Shows what researching the technology with its missing prerequisites costs, see <see cref="UnlockWithPrerequisitesButton"/>.
-    /// Hidden when the technology is already researched.
-    /// </summary>
+    // LuaM-start:
     public void UpdateUnlockWithPrerequisites(bool visible, bool enabled, string? tooltip)
     {
         UnlockWithPrerequisitesButton.Visible = visible;
         UnlockWithPrerequisitesButton.Disabled = !enabled;
         UnlockWithPrerequisitesButton.ToolTip = tooltip;
     }
-    // End LuaM
+    // LuaM-end.
 
     private void InitializePrerequisites(TechnologyPrototype proto, ResearchSystem research, SpriteSystem sprite)
     {
@@ -141,12 +137,13 @@ public sealed partial class FancyTechnologyInfoPanel : Control
         {
             var tech = _proto.Index(techId);
             var description = research.GetTechnologyDescription(tech, true, false, true);
-            // LuaM: clicking a required technology goes to it
+			// RequiredTechContainer.AddChild(new MiniTechnologyCardControl(tech, _proto, sprite, description)); // Commented by LuaM
+            // LuaM-start: clicking a required technology goes to it
             var card = new MiniTechnologyCardControl(tech, _proto, sprite, description);
             card.MakeSelectable();
             card.OnSelected += selected => PrerequisiteSelected?.Invoke(selected);
             RequiredTechContainer.AddChild(card);
-            // End LuaM
+            // LuaM-end.
         }
     }
 

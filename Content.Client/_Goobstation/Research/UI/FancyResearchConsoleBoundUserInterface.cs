@@ -38,7 +38,7 @@ public sealed class FancyResearchConsoleBoundUserInterface : BoundUserInterface
             SendMessage(new ConsoleServerSelectionMessage());
         };
 
-        // LuaM: research a whole discipline or everything
+        // LuaM-start:: research a whole discipline or everything
         _consoleMenu.OnUnlockAllPressed += discipline =>
         {
             SendMessage(new ConsoleUnlockAllTechnologiesMessage(discipline));
@@ -48,6 +48,7 @@ public sealed class FancyResearchConsoleBoundUserInterface : BoundUserInterface
         {
             SendMessage(new ConsoleUnlockWithPrerequisitesMessage(technology));
         };
+		// LuaM-end.
     }
 
     public override void OnProtoReload(PrototypesReloadedEventArgs args)
